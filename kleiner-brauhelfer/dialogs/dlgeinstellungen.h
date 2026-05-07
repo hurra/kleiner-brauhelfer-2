@@ -36,6 +36,7 @@ private slots:
     void on_cbCheckUpdate_toggled(bool checked);
     void on_cbModuleGaerverlauf_clicked(bool checked);
     void on_cbModuleSchnellgaerprobe_clicked(bool checked);
+    void on_cbModuleNachgaerung_clicked(bool checked);
     void on_cbModuleAusdruck_clicked(bool checked);
     void on_cbModuleEtiketten_clicked(bool checked);
     void on_cbModuleBewertungen_clicked(bool checked);

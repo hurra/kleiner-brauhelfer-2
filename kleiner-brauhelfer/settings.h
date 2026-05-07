@@ -29,16 +29,16 @@ public:
         ModuleAusruestung           = 0x00000200,
         ModuleRohstoffe             = 0x00000400,
         _deprecatedModuleDatenbank  = 0x00000800,
-        //
         ModuleWasseraufbereitung    = 0x00010000,
         ModulePreiskalkulation      = 0x00020000,
         ModuleLagerverwaltung       = 0x00040000,
         ModuleSpeise                = 0x00080000,
         ModuleSchnellgaerprobe      = 0x00100000,
+        ModuleNachgaerung           = 0x00200000,
         //
-        ModuleDefault               = ModuleSudauswahl | ModuleRezept | ModuleBraudaten | ModuleAbfuellen |
-                                      ModuleGaerverlauf | ModuleAusdruck | ModuleRohstoffe |
-                                      ModuleLagerverwaltung | ModuleBrauuebersicht,
+        ModuleDefault               = ModuleSudauswahl | ModuleRezept | ModuleBraudaten | ModuleAbfuellen | ModuleGaerverlauf |
+                                      ModuleAusdruck | ModuleBrauuebersicht | ModuleAusruestung | ModuleRohstoffe | ModuleLagerverwaltung |
+                                      ModulePreiskalkulation | ModuleSpeise | ModuleSchnellgaerprobe | ModuleNachgaerung,
         ModuleAlle                  = 0xffffffff,
     };
     Q_DECLARE_FLAGS(Modules, Module)

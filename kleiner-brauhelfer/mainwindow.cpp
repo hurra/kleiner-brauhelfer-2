@@ -486,12 +486,21 @@ void MainWindow::updateTabs(Settings::Modules modules)
         {
             if (ui->tabMain->indexOf(ui->tabHauptgaerung) < 0)
                 ui->tabMain->insertTab(3, ui->tabHauptgaerung, QIcon::fromTheme("gaerung_i"), tr("Hauptgärung"));
+        }
+        else
+        {
+            ui->tabMain->removeTab(ui->tabMain->indexOf(ui->tabHauptgaerung));
+        }
+    }
+    if (modules.testFlag(Settings::ModuleNachgaerung))
+    {
+        if (gSettings->isModuleEnabled(Settings::ModuleNachgaerung))
+        {
             if (ui->tabMain->indexOf(ui->tabNachgaerung) < 0)
                 ui->tabMain->insertTab(5, ui->tabNachgaerung, QIcon::fromTheme("gaerung_ii"), tr("Nachgärung"));
         }
         else
         {
-            ui->tabMain->removeTab(ui->tabMain->indexOf(ui->tabHauptgaerung));
             ui->tabMain->removeTab(ui->tabMain->indexOf(ui->tabNachgaerung));
         }
     }

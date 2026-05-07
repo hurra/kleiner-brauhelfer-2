@@ -59,6 +59,8 @@ void DlgEinstellungen::updateValues()
     ui->cbModuleGaerverlauf->setChecked(gSettings->isModuleEnabled(Settings::ModuleGaerverlauf));
     ui->cbModuleSchnellgaerprobe->setChecked(gSettings->isModuleEnabled(Settings::ModuleSchnellgaerprobe));
     ui->cbModuleSchnellgaerprobe->setEnabled(gSettings->isModuleEnabled(Settings::ModuleGaerverlauf));
+    ui->cbModuleNachgaerung->setChecked(gSettings->isModuleEnabled(Settings::ModuleNachgaerung));
+    ui->cbModuleNachgaerung->setEnabled(gSettings->isModuleEnabled(Settings::ModuleGaerverlauf));
     ui->cbModuleAusdruck->setChecked(gSettings->isModuleEnabled(Settings::ModuleAusdruck));
     ui->cbModuleEtiketten->setChecked(gSettings->isModuleEnabled(Settings::ModuleEtikett));
     ui->cbModuleBewertungen->setChecked(gSettings->isModuleEnabled(Settings::ModuleBewertung));
@@ -155,13 +157,21 @@ void DlgEinstellungen::on_cbModuleGaerverlauf_clicked(bool checked)
 {
     gSettings->enableModule(Settings::ModuleGaerverlauf, checked);
     gSettings->enableModule(Settings::ModuleSchnellgaerprobe, checked);
+    gSettings->enableModule(Settings::ModuleNachgaerung, checked);
     ui->cbModuleSchnellgaerprobe->setChecked(gSettings->isModuleEnabled(Settings::ModuleSchnellgaerprobe));
     ui->cbModuleSchnellgaerprobe->setEnabled(gSettings->isModuleEnabled(Settings::ModuleGaerverlauf));
+    ui->cbModuleNachgaerung->setChecked(gSettings->isModuleEnabled(Settings::ModuleNachgaerung));
+    ui->cbModuleNachgaerung->setEnabled(gSettings->isModuleEnabled(Settings::ModuleGaerverlauf));
 }
 
 void DlgEinstellungen::on_cbModuleSchnellgaerprobe_clicked(bool checked)
 {
     gSettings->enableModule(Settings::ModuleSchnellgaerprobe, checked);
+}
+
+void DlgEinstellungen::on_cbModuleNachgaerung_clicked(bool checked)
+{
+    gSettings->enableModule(Settings::ModuleNachgaerung, checked);
 }
 
 void DlgEinstellungen::on_cbModuleAusdruck_clicked(bool checked)
