@@ -23,7 +23,7 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:zoom="28.359375"
-   inkscape:cx="34.838567"
+   inkscape:cx="34.856198"
    inkscape:cy="32"
    inkscape:window-width="3840"
    inkscape:window-height="2054"
@@ -32,44 +32,10 @@
    inkscape:window-maximized="1"
    inkscape:current-layer="svg5" />
     
-    <g
-   transform="matrix(1,0,0,1,1.35704,-1.73223)"
-   id="g2"
-   style="stroke-width:6.5;stroke-dasharray:none;fill:#eeeeee;fill-opacity:1;stroke:#eeeeee;stroke-opacity:1">
-        <path
-   d="M20.421,23.51L40.865,43.954"
-   style="fill:#eeeeee;stroke:#eeeeee;stroke-width:6.5;stroke-miterlimit:1.5;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
-   id="path2" />
-    </g>
-    <g
-   transform="matrix(6.12323e-17,-1,1,6.12323e-17,-1.73223,62.643)"
-   id="g3"
-   style="stroke-width:6.5;stroke-dasharray:none;fill:#eeeeee;fill-opacity:1;stroke:#eeeeee;stroke-opacity:1">
-        <path
-   d="M20.421,23.51L40.865,43.954"
-   style="fill:#eeeeee;stroke:#eeeeee;stroke-width:6.5;stroke-miterlimit:1.5;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
-   id="path3" />
-    </g>
-    <g
-   transform="matrix(1,0,0,1,-0.74483,-1.22278)"
-   id="g4"
-   style="stroke-width:6.5;stroke-dasharray:none;fill:#eeeeee;fill-opacity:1;stroke:#eeeeee;stroke-opacity:1">
-        <path
-   d="M32.745,27.7C35.793,27.7 38.268,30.175 38.268,33.223C38.268,36.271 35.793,38.745 32.745,38.745C29.697,38.745 27.222,36.271 27.222,33.223C27.222,30.175 29.697,27.7 32.745,27.7ZM32.745,30.461C34.269,30.461 35.506,31.699 35.506,33.223C35.506,34.747 34.269,35.984 32.745,35.984C31.221,35.984 29.983,34.747 29.983,33.223C29.983,31.699 31.221,30.461 32.745,30.461Z"
-   style="fill:#eeeeee;stroke:#eeeeee;stroke-width:6.5;stroke-miterlimit:1.5;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
-   id="path4" />
-    </g>
-    <g
-   transform="matrix(1,0,0,1,6.53952,6.96686)"
-   id="g5"
-   style="stroke-width:6.5;stroke-dasharray:none;fill:#eeeeee;fill-opacity:1">
-        <circle
-   cx="25.46"
-   cy="25.033"
-   r="1.444"
-   style="fill:#eeeeee;stroke:white;stroke-width:6.5;stroke-miterlimit:1.5;stroke-dasharray:none;fill-opacity:1"
-   id="circle4" />
-    </g>
+    
+    
+    
+    
 <g
    id="path6456"
    transform="matrix(1.1864277,0,0,0.98445451,-6.0125545,0.49933505)"
@@ -78,4 +44,12 @@
    d="m 8.075,2.5 v 59 H 56 V 22.167 L 41.623,2.5 Z"
    style="fill:none;fill-rule:nonzero;stroke:#eeeeee;stroke-width:6.01444;stroke-dasharray:none"
    id="path1" />
+        </g><g
+   id="ol"
+   transform="matrix(0.62525401,0,0,0.625,12,12)"
+   style="clip-rule:evenodd;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.10197;stroke-linecap:round;stroke-linejoin:round">
+            <path
+   d="M 51.777,64 31.951,53.033 12.124,63.937 15.909,40.792 0,24.464 22.038,21.135 32.008,0 41.937,21.149 63.974,24.542 48.026,40.84 Z"
+   style="fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.59786px;stroke-miterlimit:1"
+   id="path2-0" />
         </g></svg>
