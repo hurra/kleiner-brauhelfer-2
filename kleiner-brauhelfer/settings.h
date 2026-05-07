@@ -77,7 +77,6 @@ public:
 
     QString dataDir(int type) const;
 
-    void initModules();
     Modules modules() const;
     void enableModule(Module module, bool enabled);
     bool isModuleEnabled(Module module) const;
@@ -100,6 +99,7 @@ signals:
 
 private:
     void initTheme();
+    void initModules();
 
 public:
     QPalette paletteError;
@@ -135,7 +135,6 @@ public:
 
     // run-time settings
     bool ForceEnabled = false;
-    bool modulesFirstTime = false;
 
 private:
     Qt::ColorScheme mTheme;

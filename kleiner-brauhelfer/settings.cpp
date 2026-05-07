@@ -13,6 +13,7 @@ Settings::Settings(QObject *parent) :
     QSettings(QSettings::IniFormat, QSettings::UserScope, QCoreApplication::organizationName(), QCoreApplication::applicationName(), parent)
 {
     defaultFont = QGuiApplication::font();
+    initModules();
     initTheme();
 }
 
@@ -20,6 +21,7 @@ Settings::Settings(const QString& dir, QObject *parent) :
     QSettings(dir + "/" + QCoreApplication::applicationName() + ".ini", QSettings::IniFormat, parent)
 {
     defaultFont = QGuiApplication::font();
+    initModules();
     initTheme();
 }
 
@@ -369,12 +371,7 @@ QString Settings::dataDir(int type) const
 void Settings::initModules()
 {
     beginGroup("General");
-    if (!contains("Modules"))
-    {
-        modulesFirstTime = true;
-        setValue("Modules", uint(ModuleDefault));
-    }
-    mModules = static_cast<Modules>(value("Modules").toUInt());
+    mModules = static_cast<Modules>(value("Modules", uint(ModuleDefault)).toUInt());
   #if (QT_VERSION >= QT_VERSION_CHECK(5, 7, 0))
     mModules.setFlag(ModuleSudauswahl);
     mModules.setFlag(ModuleRezept);

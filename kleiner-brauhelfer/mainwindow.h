@@ -61,6 +61,7 @@ private:
 private:
     Ui::MainWindow *ui;
     SudObject* mSud;
+    QByteArray mDefaultGeometry;
     QByteArray mDefaultState;
     QByteArray mDefaultSplitterHelpState;
 };

@@ -395,9 +395,6 @@ int main(int argc, char *argv[])
         logFile = new QFile(gSettings->settingsDir() + "/logfile.txt");
     gSettings->initLogLevel(logLevel);
 
-    // modules
-    gSettings->initModules();
-
     qInfo("--- Application start ---");
     qInfo() << "Version:" << QCoreApplication::applicationVersion();
     if (logLevel > 0)

@@ -114,11 +114,13 @@ MainWindow::MainWindow(QWidget *parent) :
         ui->toolBarSave->addSeparator();
     }
 
+    mDefaultGeometry = saveGeometry();
+    mDefaultState = saveState();
+
     gSettings->beginGroup("MainWindow");
     restoreGeometry(gSettings->value("geometry").toByteArray());
     ui->actionTabBarLabels->setChecked(gSettings->value("tabBarLabels", true).toBool());
     ui->actionTabBarLocation->setChecked(gSettings->value("tabBarLocation", true).toBool());
-    mDefaultState = saveState();
     restoreState(gSettings->value("state").toByteArray());
     ui->splitterHelp->setSizes({900, 100});
     ui->splitterHelp->setStretchFactor(0, 1);
@@ -160,13 +162,24 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->tabSudAuswahl->setupToolbar(ui->toolBarSudauswahl);
     connect(ui->tabMain, &QTabWidget::currentChanged, this, [this](){ui->toolBarSudauswahl->setVisible(ui->tabMain->currentWidget() == ui->tabSudAuswahl);});
 
-    if (gSettings->valueInGroup("General", "CheckUpdate", true).toBool())
+    bool doCheckForUpdate = false;
+    gSettings->beginGroup("General");
+    if (gSettings->contains("CheckUpdate"))
+        doCheckForUpdate = gSettings->value("CheckUpdate").toBool();
+    else
+        gSettings->setValue("CheckUpdate", true);
+    gSettings->endGroup();
+    if (doCheckForUpdate)
         checkForUpdate(false);
 
-    if (gSettings->modulesFirstTime)
-        ui->actionSettings->trigger();
-
     modulesChanged(Settings::ModuleAlle);
+
+    if (gSettings->isNewProgramVersion())
+    {
+        if (QCoreApplication::applicationVersion() == "2.6.3")
+            restoreView();
+    }
+
     sudLoaded();
 }
 
@@ -411,6 +424,7 @@ void MainWindow::saveSettings()
 
 void MainWindow::restoreView()
 {
+    restoreGeometry(mDefaultGeometry);
     restoreState(mDefaultState);
     ui->actionTabBarLabels->setChecked(true);
     ui->actionTabBarLocation->setChecked(true);
