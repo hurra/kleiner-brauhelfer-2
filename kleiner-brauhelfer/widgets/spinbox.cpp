@@ -13,7 +13,7 @@ SpinBox::SpinBox(QWidget *parent) :
 {
     setFocusPolicy(Qt::StrongFocus);
     setAlignment(Qt::AlignCenter);
-    setMinimum(std::numeric_limits<int>::lowest());
+    setMinimum(0);
     setMaximum(std::numeric_limits<int>::max());
 }
 

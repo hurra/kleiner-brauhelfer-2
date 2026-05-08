@@ -230,7 +230,7 @@ void TableView::copyToClipboard(bool selectionOnly) const
     // header
     for (int col : std::as_const(cols))
     {
-        QString value = model()->headerData(col, Qt::Horizontal).toString();
+        QString value = model()->headerData(col, Qt::Horizontal).toString().simplified();
         out << value;
         if (col != cols.last())
             out << "\t";
@@ -247,7 +247,7 @@ void TableView::copyToClipboard(bool selectionOnly) const
             {
                 for (int col : std::as_const(cols))
                 {
-                    QString value = indexValue(row.sibling(row.row(), col));
+                    QString value = indexValue(row.sibling(row.row(), col)).simplified();
                     out << value;
                     if (col != cols.last())
                         out << "\t";
@@ -265,7 +265,7 @@ void TableView::copyToClipboard(bool selectionOnly) const
                 prevRow = row.row();
                 for (int col : std::as_const(cols))
                 {
-                    QString value = indexValue(row.sibling(row.row(), col));
+                    QString value = indexValue(row.sibling(row.row(), col)).simplified();
                     out << value;
                     if (col != cols.last())
                         out << "\t";
@@ -280,7 +280,7 @@ void TableView::copyToClipboard(bool selectionOnly) const
         {
             for (int col : std::as_const(cols))
             {
-                QString value = indexValue(model()->index(row, col));
+                QString value = indexValue(model()->index(row, col)).simplified();
                 out << value;
                 if (col != cols.last())
                     out << "\t";

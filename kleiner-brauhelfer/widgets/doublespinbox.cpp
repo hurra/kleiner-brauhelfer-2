@@ -13,7 +13,7 @@ DoubleSpinBox::DoubleSpinBox(QWidget *parent) :
 {
     setFocusPolicy(Qt::StrongFocus);
     setAlignment(Qt::AlignCenter);
-    setMinimum(std::numeric_limits<double>::lowest());
+    setMinimum(0);
     setMaximum(std::numeric_limits<double>::max());
 }
 
