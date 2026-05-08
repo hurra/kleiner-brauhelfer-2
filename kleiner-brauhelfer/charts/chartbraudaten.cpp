@@ -15,12 +15,6 @@ ChartBraudaten::ChartBraudaten(QWidget *parent) :
     subLayout->addElement(0, 2, new QCPLayoutElement);
     plotLayout()->setRowStretchFactor(1, 0.001);
 
-    QSharedPointer<QCPAxisTickerText> textTicker(new QCPAxisTickerText);
-    textTicker->addTick(1, tr("Kochbeginn"));
-    textTicker->addTick(2, "\n" + tr("Kochende"));
-    textTicker->addTick(3, tr("Nach Hopfenseihen"));
-    textTicker->addTick(4, "\n" + tr("Anstellen"));
-    xAxis->setTicker(textTicker);
     xAxis->setRange(0, 5);
     xAxis->setTickPen(Qt::NoPen);
     yAxis->setLabel(tr("Würzemenge") + " (L)");
@@ -48,6 +42,29 @@ ChartBraudaten::ChartBraudaten(QWidget *parent) :
     graphSwIst->setName(tr("SW"));
     graphSwIst->setPen(QPen(QColor(232,163,95), 3, Qt::SolidLine));
     graphSwIst->setScatterStyle(QCPScatterStyle(QCPScatterStyle::ssCircle, QColor(232,163,95), Qt::white, 6));
+}
+
+void ChartBraudaten::resizeEvent(QResizeEvent *event)
+{
+    xAxis->ticker().clear();
+    QSharedPointer<QCPAxisTickerText> textTicker(new QCPAxisTickerText);
+    if (width() > 500)
+    {
+        textTicker->addTick(1, tr("Kochbeginn"));
+        textTicker->addTick(2, tr("Kochende"));
+        textTicker->addTick(3, tr("Nach Hopfenseihen"));
+        textTicker->addTick(4, tr("Anstellen"));
+    }
+    else
+    {
+        textTicker->addTick(1, tr("Kochbeginn"));
+        textTicker->addTick(2, "\n" + tr("Kochende"));
+        textTicker->addTick(3, tr("Nach Hopfenseihen"));
+        textTicker->addTick(4, "\n" + tr("Anstellen"));
+    }
+    xAxis->setTicker(textTicker);
+
+    ChartBase::resizeEvent(event);
 }
 
 void ChartBraudaten::update(const SudObject* sud)

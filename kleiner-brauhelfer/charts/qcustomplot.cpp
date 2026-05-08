@@ -4001,7 +4001,15 @@ QVector<int> QCPLayout::getSectionSizes(QVector<int> maxSizes, QVector<int> minS
   
   QVector<int> result(sectionCount);
   for (int i=0; i<sectionCount; ++i)
-    result[i] = qRound(sectionSizes.at(i));
+  {
+    // bourgeoislab: fix start
+    double val = sectionSizes.at(i);
+    if (isnan(val))
+        result[i] = 0;
+    else
+    // bourgeoislab: fix end
+        result[i] = qRound(sectionSizes.at(i));
+  }
   return result;
 }
 

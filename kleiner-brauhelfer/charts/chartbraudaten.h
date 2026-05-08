@@ -16,6 +16,9 @@ public slots:
     void update(const SudObject* sud);
 
 private:
+    void resizeEvent(QResizeEvent *event) Q_DECL_OVERRIDE;
+
+private:
     QCPBars *barsMengeIst;
     QCPBars *barsMengeSoll;
     QCPGraph *graphSwIst;

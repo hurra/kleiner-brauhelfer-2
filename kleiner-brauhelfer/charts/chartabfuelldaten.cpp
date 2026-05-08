@@ -4,12 +4,6 @@
 ChartAbfuelldaten::ChartAbfuelldaten(QWidget *parent) :
     ChartBase(parent)
 {
-    QSharedPointer<QCPAxisTickerText> textTicker(new QCPAxisTickerText);
-    textTicker->addTick(1, tr("Anstellen"));
-    textTicker->addTick(2, "\n" + tr("Jungbier"));
-    textTicker->addTick(3, tr("Abgefüllt"));
-    textTicker->addTick(4, "\n" + tr("Rezept"));
-    xAxis->setTicker(textTicker);
     xAxis->setRange(0, 5);
     xAxis->setTickPen(Qt::NoPen);
     yAxis->setLabel(tr("Würzemenge") + " (L)");
@@ -34,6 +28,29 @@ ChartAbfuelldaten::ChartAbfuelldaten(QWidget *parent) :
     textLabel4->position->setAxes(xAxis,yAxis);
     textLabel4->setPen(Qt::NoPen);
     textLabel4->setColor(Qt::white);
+}
+
+void ChartAbfuelldaten::resizeEvent(QResizeEvent *event)
+{
+    xAxis->ticker().clear();
+    QSharedPointer<QCPAxisTickerText> textTicker(new QCPAxisTickerText);
+    if (width() > 500)
+    {
+        textTicker->addTick(1, tr("Anstellen"));
+        textTicker->addTick(2, tr("Jungbier"));
+        textTicker->addTick(3, tr("Abgefüllt"));
+        textTicker->addTick(4, tr("Rezept"));
+    }
+    else
+    {
+        textTicker->addTick(1, tr("Anstellen"));
+        textTicker->addTick(2, "\n" + tr("Jungbier"));
+        textTicker->addTick(3, tr("Abgefüllt"));
+        textTicker->addTick(4, "\n" + tr("Rezept"));
+    }
+    xAxis->setTicker(textTicker);
+
+    ChartBase::resizeEvent(event);
 }
 
 void ChartAbfuelldaten::update(const SudObject* sud)

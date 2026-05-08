@@ -4,12 +4,6 @@
 ChartRestextrakt::ChartRestextrakt(QWidget *parent) :
     ChartBase(parent)
 {
-    QSharedPointer<QCPAxisTickerText> textTicker(new QCPAxisTickerText);
-    textTicker->addTick(1, tr("Schnellgärprobe"));
-    textTicker->addTick(2, tr("Gemessen"));
-    textTicker->addTick(3, tr("Erwartet"));
-    textTicker->addTick(4, tr("Rezept"));
-    xAxis->setTicker(textTicker);
     xAxis->setRange(0,5);
     xAxis->setTickPen(Qt::NoPen);
     yAxis->setLabel(tr("Restextrakt") + " (°P)");
@@ -34,6 +28,29 @@ ChartRestextrakt::ChartRestextrakt(QWidget *parent) :
     textLabel4->position->setAxes(xAxis,yAxis);
     textLabel4->setPen(Qt::NoPen);
     textLabel4->setColor(Qt::white);
+}
+
+void ChartRestextrakt::resizeEvent(QResizeEvent *event)
+{
+    xAxis->ticker().clear();
+    QSharedPointer<QCPAxisTickerText> textTicker(new QCPAxisTickerText);
+    if (width() > 500)
+    {
+        textTicker->addTick(1, tr("Schnellgärprobe"));
+        textTicker->addTick(2, tr("Gemessen"));
+        textTicker->addTick(3, tr("Erwartet"));
+        textTicker->addTick(4, tr("Rezept"));
+    }
+    else
+    {
+        textTicker->addTick(1, tr("Schnellgärprobe"));
+        textTicker->addTick(2, "\n" + tr("Gemessen"));
+        textTicker->addTick(3, tr("Erwartet"));
+        textTicker->addTick(4, "\n" + tr("Rezept"));
+    }
+    xAxis->setTicker(textTicker);
+
+    ChartBase::resizeEvent(event);
 }
 
 void ChartRestextrakt::update(const SudObject* sud)

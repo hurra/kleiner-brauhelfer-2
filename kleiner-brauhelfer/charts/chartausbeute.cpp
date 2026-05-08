@@ -4,11 +4,6 @@
 ChartAusbeute::ChartAusbeute(QWidget *parent) :
     ChartBase(parent)
 {
-    QSharedPointer<QCPAxisTickerText> textTicker(new QCPAxisTickerText);
-    textTicker->addTick(1, tr("SHA"));
-    textTicker->addTick(2, tr("Eff. SHA"));
-    textTicker->addTick(3, tr("Rezept"));
-    xAxis->setTicker(textTicker);
     xAxis->setRange(0, 4);
     xAxis->setTickPen(Qt::NoPen);
     yAxis->setLabel(tr("Ausbeute") + " (%)");
@@ -30,6 +25,27 @@ ChartAusbeute::ChartAusbeute(QWidget *parent) :
     textLabel3->position->setAxes(xAxis,yAxis);
     textLabel3->setPen(Qt::NoPen);
     textLabel3->setColor(Qt::white);
+}
+
+void ChartAusbeute::resizeEvent(QResizeEvent *event)
+{
+    xAxis->ticker().clear();
+    QSharedPointer<QCPAxisTickerText> textTicker(new QCPAxisTickerText);
+    if (width() > 400)
+    {
+        textTicker->addTick(1, tr("SHA"));
+        textTicker->addTick(2, tr("Eff. SHA"));
+        textTicker->addTick(3, tr("Rezept"));
+    }
+    else
+    {
+        textTicker->addTick(1, tr("SHA"));
+        textTicker->addTick(2, "\n" + tr("Eff. SHA"));
+        textTicker->addTick(3, tr("Rezept"));
+    }
+    xAxis->setTicker(textTicker);
+
+    ChartBase::resizeEvent(event);
 }
 
 void ChartAusbeute::update(const SudObject* sud)

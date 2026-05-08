@@ -15,6 +15,9 @@ public slots:
     void update(const SudObject* sud);
 
 private:
+    void resizeEvent(QResizeEvent *event) Q_DECL_OVERRIDE;
+
+private:
     QCPBars *bars;
     QCPItemText *textLabel1;
     QCPItemText *textLabel2;
