@@ -99,6 +99,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->tabAbfuelldaten->setup(mSud);
     ui->tabHauptgaerung->setup(mSud);
     ui->tabNachgaerung->setup(mSud);
+    ui->wdgSudStatus->setSud(mSud);
     qApp->installEventFilter(this);
 
     initActions();
@@ -157,7 +158,6 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(bh, &Brauhelfer::discarded, this, &MainWindow::updateValues);
     connect(mSud, &SudObject::loadedChanged, this, &MainWindow::sudLoaded);
     connect(mSud, &SudObject::dataChanged, this, &MainWindow::sudDataChanged);
-
 
     ui->tabSudAuswahl->setupToolbar(ui->toolBarSudauswahl);
     connect(ui->tabMain, &QTabWidget::currentChanged, this, [this](){ui->toolBarSudauswahl->setVisible(ui->tabMain->currentWidget() == ui->tabSudAuswahl);});

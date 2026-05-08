@@ -131,6 +131,7 @@ SOURCES += \
     widgets/wdgmalzgabe.cpp \
     widgets/wdgrast.cpp \
     widgets/wdgrating.cpp \
+    widgets/wdgsudstatus.cpp \
     widgets/wdgwasseraufbereitung.cpp \
     widgets/wdgweiterezutatgabe.cpp \
     widgets/webview.cpp \
@@ -235,6 +236,7 @@ HEADERS += \
     widgets/wdgmalzgabe.h \
     widgets/wdgrast.h \
     widgets/wdgrating.h \
+    widgets/wdgsudstatus.h \
     widgets/wdgwasseraufbereitung.h \
     widgets/wdgweiterezutatgabe.h \
     widgets/webview.h \

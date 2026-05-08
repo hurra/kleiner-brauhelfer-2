@@ -46,6 +46,9 @@
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
+         <widget class="WdgSudStatus" name="wdgSudStatus" native="true"/>
+        </item>
+        <item>
          <widget class="QSplitter" name="splitterHelp">
           <property name="orientation">
            <enum>Qt::Orientation::Vertical</enum>
@@ -460,6 +463,12 @@
    <class>TabGaerverlauf2</class>
    <extends>QWidget</extends>
    <header>tabgaerverlauf2.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WdgSudStatus</class>
+   <extends>QWidget</extends>
+   <header>widgets/wdgsudstatus.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
