@@ -9,6 +9,8 @@ class TimeEdit : public QTimeEdit
 
 public:
     explicit TimeEdit(QWidget *parent = nullptr);
+    QSize sizeHint() const Q_DECL_OVERRIDE;
+    QSize minimumSizeHint() const Q_DECL_OVERRIDE;
     void addChangeDecorator();
     void setEnabled(bool e);
     void setDisabled(bool d);

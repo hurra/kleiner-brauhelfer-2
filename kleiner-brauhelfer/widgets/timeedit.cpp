@@ -15,6 +15,16 @@ TimeEdit::TimeEdit(QWidget *parent) :
     connect(this, &QDateTimeEdit::timeChanged, this, &TimeEdit::updatePalette);
 }
 
+QSize TimeEdit::sizeHint() const
+{
+    return QSize(100, 28);
+}
+
+QSize TimeEdit::minimumSizeHint() const
+{
+    return QSize(80, 24);
+}
+
 void TimeEdit::addChangeDecorator()
 {
     connect(this, &QDateTimeEdit::timeChanged, [this](){WidgetDecorator::valueChanged(this, hasFocus());});

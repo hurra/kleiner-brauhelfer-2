@@ -18,6 +18,16 @@ SpinBox::SpinBox(QWidget *parent) :
     connect(this, &QSpinBox::valueChanged, this, &SpinBox::updatePalette);
 }
 
+QSize SpinBox::sizeHint() const
+{
+    return QSize(100, 28);
+}
+
+QSize SpinBox::minimumSizeHint() const
+{
+    return QSize(80, 24);
+}
+
 void SpinBox::addChangeDecorator()
 {
     connect(this, &QSpinBox::valueChanged, [this](){WidgetDecorator::valueChanged(this, hasFocus());});

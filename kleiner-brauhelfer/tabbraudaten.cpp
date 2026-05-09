@@ -234,7 +234,7 @@ void TabBraudaten::checkEnabled()
     ui->tbMengeHefestarter->setDisabled(gebraut);
     ui->tbSWHefestarter->setDisabled(gebraut);
     ui->tbSWHefestarterBrix->setDisabled(gebraut);
-    ui->tbWasserVerschneidung->setDisabled(gebraut);
+    ui->tbWasserVerschneidungSW->setDisabled(gebraut);
     ui->tbWasserVerschneidungBrix->setDisabled(gebraut);
 }
 

@@ -18,6 +18,16 @@ DoubleSpinBox::DoubleSpinBox(QWidget *parent) :
     connect(this, &QDoubleSpinBox::valueChanged, this, &DoubleSpinBox::updatePalette);
 }
 
+QSize DoubleSpinBox::sizeHint() const
+{
+    return QSize(100, 28);
+}
+
+QSize DoubleSpinBox::minimumSizeHint() const
+{
+    return QSize(80, 24);
+}
+
 void DoubleSpinBox::addChangeDecorator()
 {
     connect(this, &QDoubleSpinBox::valueChanged, [this](){ WidgetDecorator::valueChanged(this, hasFocus());});

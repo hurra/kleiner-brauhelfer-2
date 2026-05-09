@@ -16,6 +16,16 @@ DateTimeEdit::DateTimeEdit(QWidget *parent) :
     connect(this, &QDateTimeEdit::dateTimeChanged, this, &DateTimeEdit::updatePalette);
 }
 
+QSize DateTimeEdit::sizeHint() const
+{
+    return QSize(100, 28);
+}
+
+QSize DateTimeEdit::minimumSizeHint() const
+{
+    return QSize(80, 24);
+}
+
 void DateTimeEdit::addChangeDecorator()
 {
     connect(this, &QDateTimeEdit::dateTimeChanged, [this](){WidgetDecorator::valueChanged(this, hasFocus());});

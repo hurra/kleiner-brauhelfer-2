@@ -4004,7 +4004,7 @@ QVector<int> QCPLayout::getSectionSizes(QVector<int> maxSizes, QVector<int> minS
   {
     // bourgeoislab: fix start
     double val = sectionSizes.at(i);
-    if (isnan(val))
+    if (std::isnan(val))
         result[i] = 0;
     else
     // bourgeoislab: fix end
