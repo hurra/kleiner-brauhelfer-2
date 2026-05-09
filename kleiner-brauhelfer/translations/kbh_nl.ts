@@ -1682,7 +1682,7 @@ De grafische evaluatie maakt betrouwbare conclusies over de fermentatieomstandig
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="463"/>
-        <source>Hiermit wird der Anteil an Speise verrechnet, der später in Reifeprozess für die Nachägrung – entweder in Flasche oder Fass – verwendet wird.
+        <source>Hiermit wird der Anteil an Speise verrechnet, der später in Reifeprozess für die Nachgärung – entweder in Flasche oder Fass – verwendet wird.
 Unter Speise versteht man einen zurückgehaltenen Teil der Würze, der vor dem Anstellen entnommen wird. Aus seinem Volumen und Zuckergehalt lässt sich die Karbonisierung berechnen.</source>
         <translation>Dit wordt gebruikt om het aandeel wort te berekenen dat later zal worden gebruikt in het rijpingsproces voor secundaire gisting, hetzij in flessen, hetzij in vaten.
 Wort verwijst naar een deel van het wort dat vóór de gisting wordt bewaard. Het volume en het suikergehalte ervan kunnen worden gebruikt om de carbonatatie te berekenen.</translation>
@@ -2713,8 +2713,8 @@ Voor gebrouwen brouwsels geeft de Samenvatting een overzicht van alle relevante 
     </message>
     <message>
         <location filename="../dialogs/dlgrohstoffvorlage.cpp" line="51"/>
-        <source>Quellen: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | ww.weyermann.de</source>
-        <translation>Bron: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | www.weyermann.de</translation>
+        <source>Quellen: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | www.weyermann.de</source>
+        <translation>Bron: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | wwww.weyermann.de</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrohstoffvorlage.cpp" line="129"/>
@@ -4183,8 +4183,8 @@ Voor gebrouwen brouwsels geeft de Samenvatting een overzicht van alle relevante 
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="816"/>
-        <source>CO2</source>
-        <translation>CO2</translation>
+        <source>CO₂</source>
+        <translation>CO₂</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="829"/>
@@ -6052,6 +6052,11 @@ p, li { white-space: pre-wrap; }
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hier is ruimte voor opmerkingen over de stappen in het maischproces &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <location filename="../tabrezept.ui" line="1258"/>
+        <source>Die Summe der angegebenen Wassermengen entspricht nicht der Hauptgussmenge.</source>
+        <translation>De Som van de aangegeven Waterhoeveelheden komt niet overeen met de totale Maischwater.</translation>
+    </message>
+    <message>
         <location filename="../tabrezept.ui" line="1415"/>
         <location filename="../tabrezept.ui" line="1428"/>
         <source>Schritt</source>
@@ -6516,11 +6521,6 @@ p, li { white-space: pre-wrap; }
         <location filename="../tabrezept.ui" line="2014"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hiermit wird ein &lt;span style=&quot; font-weight:600;&quot;&gt;Zusatz&lt;/span&gt; aus der &lt;span style=&quot; font-weight:600;&quot;&gt;Rohstoffliste &lt;/span&gt;im Kleinen Brauhelfer für die Kalthopfung übernommen. Dazu öffnet sich ein Fenster mit den Einträgen im &lt;span style=&quot; font-weight:600;&quot;&gt;Tab Rohstoffe&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dit neemt een &lt;span style=&quot; font-weight:600;&quot;&gt;Ingrediënt&lt;/span&gt; over van de &lt;span style=&quot; font-weight:600;&quot;&gt;Grondstoffenlijst&lt;/span&gt; in de Kleiner Brauhelfer voor Koudhoppen. Er wordt een venster geopend met de gegevens in het &lt;span style=&quot; font-weight:600;&quot;&gt;Tabblad Grondstoffen&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../tabrezept.ui" line="1258"/>
-        <source>Die Summe der angegebenen Wassermengen entspricht nicht der Hautpgussmenge.</source>
-        <translation>De Som van de aangegeven Waterhoeveelheden komt niet overeen met de totale Maischwater.</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="1275"/>

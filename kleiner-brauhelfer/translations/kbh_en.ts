@@ -30,7 +30,7 @@
     <message>
         <location filename="../charts/chartabfuelldaten.cpp" line="9"/>
         <source>Würzemenge</source>
-        <translation>Wort amount</translation>
+        <translation>Wort volume</translation>
     </message>
 </context>
 <context>
@@ -39,13 +39,13 @@
         <location filename="../charts/chartausbeute.cpp" line="36"/>
         <location filename="../charts/chartausbeute.cpp" line="42"/>
         <source>SHA</source>
-        <translation>Mash efficiency</translation>
+        <translation>Brewhouse efficiency</translation>
     </message>
     <message>
         <location filename="../charts/chartausbeute.cpp" line="37"/>
         <location filename="../charts/chartausbeute.cpp" line="43"/>
         <source>Eff. SHA</source>
-        <translation>Brewhouse efficiency</translation>
+        <translation>Effective brewhouse efficiency</translation>
     </message>
     <message>
         <location filename="../charts/chartausbeute.cpp" line="38"/>
@@ -65,7 +65,7 @@
         <location filename="../charts/chartbraudaten.cpp" line="53"/>
         <location filename="../charts/chartbraudaten.cpp" line="60"/>
         <source>Kochbeginn</source>
-        <translation>Begin of boil</translation>
+        <translation>Start of boil</translation>
     </message>
     <message>
         <location filename="../charts/chartbraudaten.cpp" line="54"/>
@@ -88,7 +88,7 @@
     <message>
         <location filename="../charts/chartbraudaten.cpp" line="20"/>
         <source>Würzemenge</source>
-        <translation>Wort amount</translation>
+        <translation>Wort volume</translation>
     </message>
     <message>
         <location filename="../charts/chartbraudaten.cpp" line="21"/>
@@ -98,17 +98,17 @@
     <message>
         <location filename="../charts/chartbraudaten.cpp" line="25"/>
         <source>Menge</source>
-        <translation>Amount</translation>
+        <translation>Volume</translation>
     </message>
     <message>
         <location filename="../charts/chartbraudaten.cpp" line="31"/>
         <source>Menge Rezept</source>
-        <translation>Amount recipe</translation>
+        <translation>Recipe volume</translation>
     </message>
     <message>
         <location filename="../charts/chartbraudaten.cpp" line="38"/>
         <source>SW Rezept</source>
-        <translation>OG recipe</translation>
+        <translation>Recipe OG</translation>
     </message>
     <message>
         <location filename="../charts/chartbraudaten.cpp" line="42"/>
@@ -128,7 +128,7 @@
         <location filename="../charts/charthopfen.cpp" line="67"/>
         <location filename="../charts/charthopfen.cpp" line="74"/>
         <source>Anteil</source>
-        <translation>Share</translation>
+        <translation>Proportion</translation>
     </message>
     <message>
         <location filename="../charts/charthopfen.cpp" line="76"/>
@@ -164,7 +164,7 @@
     <message>
         <location filename="../charts/chartmalz.cpp" line="12"/>
         <source>Anteil</source>
-        <translation>Share</translation>
+        <translation>Proportion</translation>
     </message>
     <message>
         <location filename="../charts/chartmalz.cpp" line="13"/>
@@ -257,7 +257,7 @@
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="144"/>
         <source>Geräte</source>
-        <translation>Gear</translation>
+        <translation>Equipment items</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="150"/>
@@ -272,7 +272,7 @@
     <message>
         <location filename="../dialogs/dlgausruestung.cpp" line="239"/>
         <source>Neues Gerät</source>
-        <translation>New gear</translation>
+        <translation>New equipment item</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="215"/>
@@ -288,7 +288,7 @@
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="308"/>
         <source>Kernwerte der Anlage</source>
-        <translation>Setup parameters</translation>
+        <translation>Brewing System Parameters</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="369"/>
@@ -339,7 +339,7 @@
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="273"/>
         <source>Bezeichnung</source>
-        <translation>Designation</translation>
+        <translation>Name</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="252"/>
@@ -359,7 +359,7 @@
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="31"/>
         <source>Anlagen</source>
-        <translation>Brewing equipments</translation>
+        <translation>Brewing systems</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="343"/>
@@ -389,7 +389,7 @@
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="472"/>
         <source>Sudhausausbeute</source>
-        <translation>Mash efficiency</translation>
+        <translation>Brewhouse efficiency</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="505"/>
@@ -419,12 +419,12 @@
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="715"/>
         <source>Korrektur der Nachgussmenge</source>
-        <translation>Correction of sparging water amount</translation>
+        <translation>Correction of sparge water volume</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="732"/>
         <source>Korrektur der Sollmenge</source>
-        <translation>Correction of target quantity</translation>
+        <translation>Correction of target volume</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="746"/>
@@ -462,7 +462,7 @@
         <location filename="../dialogs/dlgausruestung.ui" line="879"/>
         <location filename="../dialogs/dlgausruestung.ui" line="1099"/>
         <source>Nutzbares Volumen</source>
-        <translation>Useable volume</translation>
+        <translation>Usable volume</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="886"/>
@@ -494,7 +494,7 @@
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="1035"/>
         <source>Sudpfanne</source>
-        <translation>Brew kettle</translation>
+        <translation>Boiling kettle</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.ui" line="1057"/>
@@ -534,27 +534,27 @@
     <message>
         <location filename="../dialogs/dlgausruestung.cpp" line="200"/>
         <source>Neue Brauanlage</source>
-        <translation>New brew equipment</translation>
+        <translation>New brewing system</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.cpp" line="222"/>
         <source>Brauanlage löschen?</source>
-        <translation>Delete setup?</translation>
+        <translation>Delete brewing system?</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.cpp" line="223"/>
         <source>Soll die Brauanlage &quot;%1&quot; gelöscht werden?</source>
-        <translation>Delete setup &quot;%1&quot;?</translation>
+        <translation>Delete brewing system &quot;%1&quot;?</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.cpp" line="260"/>
         <source>Gerät löschen?</source>
-        <translation>Delete gear?</translation>
+        <translation>Delete equipment item?</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgausruestung.cpp" line="261"/>
         <source>Soll das Gerät &quot;%1&quot; gelöscht werden?</source>
-        <translation>Delete gear &quot;%1&quot;?</translation>
+        <translation>Delete equipment item &quot;%1&quot;?</translation>
     </message>
 </context>
 <context>
@@ -607,7 +607,7 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="228"/>
         <source>Bewertungsdatum</source>
-        <translation>Evaluation date</translation>
+        <translation>Rating date</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="242"/>
@@ -671,7 +671,7 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="346"/>
         <source>kunstvoll, kreativ, mutig</source>
-        <translation>creative</translation>
+        <translation>artful, creative, bold</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="353"/>
@@ -773,17 +773,17 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="559"/>
         <source>grobporig, schwach</source>
-        <translation>coarse, weak</translation>
+        <translation>coarse-pored, weak</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="582"/>
         <source>gut haftend am Glas</source>
-        <translation>well adhering to glass</translation>
+        <translation>adheres well to glass</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="589"/>
         <source>schlecht haftend</source>
-        <translation>poor adherence</translation>
+        <translation>poor retention</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="612"/>
@@ -813,7 +813,7 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="676"/>
         <source>sehr voluminös, mächtig</source>
-        <translation>voluminous</translation>
+        <translation>very voluminous, dense</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="683"/>
@@ -851,12 +851,12 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="739"/>
         <source>rein, abgerundet</source>
-        <translation>clear, harmonic</translation>
+        <translation>clean, balanced</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="746"/>
         <source>unangenehm, unausgewogen</source>
-        <translation>unround, unharmonic</translation>
+        <translation>unpleasant, unbalanced</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="753"/>
@@ -872,7 +872,7 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="767"/>
         <source>wohlriechend</source>
-        <translation>well smelling</translation>
+        <translation>pleasant aroma</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="774"/>
@@ -894,7 +894,7 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="795"/>
         <source>Geruchsfehler</source>
-        <translation>wrong, faulty</translation>
+        <translation>off-aroma</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="808"/>
@@ -909,17 +909,17 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="834"/>
         <source>rein</source>
-        <translation>clear</translation>
+        <translation>clean</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="841"/>
         <source>unausgewogen, kantig</source>
-        <translation>unbalanced, edgy</translation>
+        <translation>unbalanced, harsh</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="848"/>
         <source>süsslich, klebrig</source>
-        <translation>sweety, sticky</translation>
+        <translation>sweet, sticky</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="855"/>
@@ -944,12 +944,12 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="906"/>
         <source>Geschmacksfehler</source>
-        <translation>wrong/faulty</translation>
+        <translation>off-flavour</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="937"/>
         <source>Antrunk (Rezenz, Frischeeindruck)</source>
-        <translation>First/Initial Impression</translation>
+        <translation>First Impression</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="943"/>
@@ -1014,7 +1014,7 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="1052"/>
         <source>mastig, breit</source>
-        <translation>full-bodied</translation>
+        <translation>heavy, broad</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="1059"/>
@@ -1044,7 +1044,7 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="1105"/>
         <source>unangenehm</source>
-        <translation>unpleasent, unround</translation>
+        <translation>unpleasant</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="1112"/>
@@ -1059,7 +1059,7 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="1133"/>
         <source>sehr herb, kräftig betont</source>
-        <translation>very bitter, strongly emphasized</translation>
+        <translation>very bitter, strongly pronounced</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="1140"/>
@@ -1069,7 +1069,7 @@
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="1147"/>
         <source>wenig herb, unterentwickelt</source>
-        <translation>little bitterness, underdeveloped</translation>
+        <translation>low bitterness, underdeveloped</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbewertungen.ui" line="1154"/>
@@ -1092,7 +1092,7 @@
     <message>
         <location filename="../dialogs/dlgbrauuebersicht.ui" line="14"/>
         <source>Brauübersicht</source>
-        <translation>History</translation>
+        <translation>Batch History</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbrauuebersicht.ui" line="664"/>
@@ -1142,7 +1142,7 @@
     <message>
         <location filename="../dialogs/dlgbrauuebersicht.ui" line="164"/>
         <source>Effektive Sudhausausbeute (⌀)</source>
-        <translation>Brewhouse efficiency (⌀)</translation>
+        <translation>Effective brewhouse efficiency (⌀)</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbrauuebersicht.ui" line="222"/>
@@ -1152,7 +1152,7 @@
     <message>
         <location filename="../dialogs/dlgbrauuebersicht.ui" line="236"/>
         <source>Sudhausausbeute (⌀)</source>
-        <translation>Mash efficiency (⌀)</translation>
+        <translation>Brewhouse efficiency (⌀)</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbrauuebersicht.ui" line="262"/>
@@ -1187,7 +1187,7 @@
     <message>
         <location filename="../dialogs/dlgbrauuebersicht.ui" line="514"/>
         <source>Biermenge (⌀)</source>
-        <translation>Beer amount (⌀)</translation>
+        <translation>Beer volume (⌀)</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbrauuebersicht.ui" line="537"/>
@@ -1227,7 +1227,7 @@
     <message>
         <location filename="../dialogs/dlgbrauuebersicht.cpp" line="147"/>
         <source>Sudhausausbeute</source>
-        <translation>Mash efficiency</translation>
+        <translation>Brewhouse efficiency</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgbrauuebersicht.cpp" line="148"/>
@@ -1285,7 +1285,7 @@
     <message>
         <location filename="../dialogs/dlgcheckupdate.ui" line="71"/>
         <source>Diese Version ignorieren</source>
-        <translation>Ignore this version</translation>
+        <translation>Skip this version</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgcheckupdate.ui" line="81"/>
@@ -1358,12 +1358,12 @@
     <message>
         <location filename="../dialogs/dlgdatabasecleaner.cpp" line="242"/>
         <source>Anlage ID</source>
-        <translation>Brewing equipment ID</translation>
+        <translation>Brewing system ID</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgdatabasecleaner.cpp" line="243"/>
         <source>Anlage</source>
-        <translation>Brewing equipment</translation>
+        <translation>Brewing system</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgdatabasecleaner.cpp" line="263"/>
@@ -1378,7 +1378,7 @@
     <message>
         <location filename="../dialogs/dlgdatabasecleaner.cpp" line="288"/>
         <source>Ungültige Anlage ID in Tabelle:</source>
-        <translation>Invalid Setup ID in table:</translation>
+        <translation>Invalid brewing system ID in table:</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgdatabasecleaner.cpp" line="315"/>
@@ -1409,7 +1409,7 @@
     <message>
         <location filename="../dialogs/dlgdatabasecleaner.cpp" line="431"/>
         <source>Ausgetrunken</source>
-        <translation>Drank out</translation>
+        <translation>Consumed</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgdatabasecleaner.cpp" line="459"/>
@@ -1577,12 +1577,12 @@
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="296"/>
         <source>Bestätigung beim Beenden</source>
-        <translation>Confirm quitting</translation>
+        <translation>Confirm closing</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="303"/>
         <source>Zahlen- und Datumsformat aus Spracheinstellung (Neustart erforderlich)</source>
-        <translation>Number und date format from language setting</translation>
+        <translation>Number and date format from language setting</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="310"/>
@@ -1602,7 +1602,7 @@
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="650"/>
         <source>Die Nachgärung ist die Phase nach der Hauptgärung, in der die verbliebene Hefe noch restlichen Zucker vergärt und dabei Kohlensäure sowie zusätzliche Aromen bildet. Sie findet meist in Flaschen, Fässern oder Lagertanks statt und sorgt dafür, dass das Bier seinen endgültigen Geschmack und seine Spritzigkeit erhält.</source>
-        <translation>Priming/Conditioning is the stage following primary fermentation, during which the remaining yeast ferments the residual sugar, producing carbon dioxide and additional flavours. It usually takes place in bottles, barrels or storage tanks and ensures that the beer develops its final flavour and fizz.</translation>
+        <translation>Conditioning is the stage following primary fermentation, during which the remaining yeast ferments the residual sugar, producing carbon dioxide and additional flavours. It usually takes place in bottles, barrels or storage tanks and ensures that the beer develops its final flavour and carbonation.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="370"/>
@@ -1612,7 +1612,7 @@
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="400"/>
         <source>Dieses Modul aktiviert die Speiseberechnung für die Karbonisierung (Nachgärung).</source>
-        <translation>This module activates the unfermented worth calculation for carbonation.</translation>
+        <translation>This module activates the unfermented wort calculation for carbonation.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="507"/>
@@ -1622,7 +1622,7 @@
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="387"/>
         <source>Lagerverwaltung</source>
-        <translation>Stock administration</translation>
+        <translation>Inventory management</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="561"/>
@@ -1632,12 +1632,12 @@
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="497"/>
         <source>Damit lassen sich zeitliche Gärverläufe protokollieren (Hauptgärung, Nachgärung und Schnellgärprobe).</source>
-        <translation>This allows logging of fermentation progressions over time (fermentation, priming/conditioning and fast fermentation sample).</translation>
+        <translation>This allows logging of fermentation progressions over time (primary fermentation, conditioning and fast fermentation sample).</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="520"/>
         <source>Dieses Modul verwaltet anlagespezifische Kennzahlen. Die wichtigsten sind dabei Sudhausausbeute und Verdampfungsrate. Für eine genauere Berechnung sollte dieses Modul aktiviert werden.</source>
-        <translation>This module manages equipment-specific key figures. The most important of these are mash efficiency and evaporation rate. For a more precise calculation, this module should be activated.</translation>
+        <translation>This module manages equipment-specific key figures. The most important of these are brewhouse efficiency and evaporation rate. For a more precise calculation, this module should be activated.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="356"/>
@@ -1647,24 +1647,24 @@
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="453"/>
         <source>Dieses Modul berechnet den Preis pro Liter Bier. Voraussetzung ist die Eingabe alle Rohstoffpreise.</source>
-        <translation>This module calculates the price per liter of beer. Prerequisite is the input of all raw material prices.</translation>
+        <translation>This module calculates the price per liter of beer. This requires entering the prices of all ingredients.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="606"/>
         <source>Dieses Modul ermöglicht das Erstellen von Etiketten (Label) mit automatischer Einbindung der wichtigsten Kennzahlen (Stammwürze, IBU, Farbe, ...).</source>
-        <translation>This module enables the creation of labels with automatic integration of the most important key figures (original wort, IBU, color, ...).</translation>
+        <translation>This module enables the creation of labels with automatic integration of the most important key figures (original gravity, IBU, color, ...).</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="616"/>
         <source>Der Gärverlauf gehört zu den wichtigsten Schritten nach dem Anstellen. Das Programm trennt in Schnellgärprobe, Hauptgärung und Nachgärung.
 Die graphische Auswertung lässt gute Rückschlüsse über die Gärbedingungen zu. Störungen oder Eigenarten bestimmter Hefen, die sich schon einmal &quot;schlafen legen&quot;, lassen sich so auf einen Blick identifizieren.</source>
-        <translation>The fermentation process is one of the most important steps after pitching. The program distinguishes between rapid fermentation, main fermentation, and secondary fermentation.
+        <translation>The fermentation process is one of the most important steps after pitching. The program distinguishes between fast fermentation, primary fermentation (short fermentation), and secondary fermentation (conditioning).
 The graphical evaluation allows for reliable conclusions about the fermentation conditions. Disturbances or peculiarities of certain yeasts that tend to “go to sleep” can thus be identified at a glance.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="590"/>
         <source>Dieses Modul aktiviert die Lagerverwaltung der Rohstoffe.</source>
-        <translation>This module activates the stock management of raw materials.</translation>
+        <translation>This module activates the inventory management of raw materials.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="333"/>
@@ -1678,7 +1678,7 @@ The graphical evaluation allows for reliable conclusions about the fermentation 
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="463"/>
-        <source>Hiermit wird der Anteil an Speise verrechnet, der später in Reifeprozess für die Nachägrung – entweder in Flasche oder Fass – verwendet wird.
+        <source>Hiermit wird der Anteil an Speise verrechnet, der später in Reifeprozess für die Nachgärung – entweder in Flasche oder Fass – verwendet wird.
 Unter Speise versteht man einen zurückgehaltenen Teil der Würze, der vor dem Anstellen entnommen wird. Aus seinem Volumen und Zuckergehalt lässt sich die Karbonisierung berechnen.</source>
         <translation>This is used to calculate the proportion of wort that will later be used in the maturation process for secondary fermentation, either in bottles or barrels.
 Wort refers to a portion of the wort that is retained before fermentation. Its volume and sugar content can be used to calculate carbonation.</translation>
@@ -1686,27 +1686,27 @@ Wort refers to a portion of the wort that is retained before fermentation. Its v
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="346"/>
         <source>Dieses Modul ermöglicht das Bewerten von Suden.</source>
-        <translation>This module enables rating of brews.</translation>
+        <translation>This module enables rating of batches.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="326"/>
         <source>Brauübersicht</source>
-        <translation>History</translation>
+        <translation>Batch History</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="530"/>
         <source>Ausdruck</source>
-        <translation>Print-out</translation>
+        <translation>Printout</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="633"/>
         <source>Dieses Modul aktiviert die Schnellgärprobe für die Vorhersage des richtigen Zeitpunktes beim Grünschlauchen.</source>
-        <translation>This module activates the rapid fermentation test for predicting the right time for green harvesting.</translation>
+        <translation>This module activates the fast fermentation sample for predicting the right time for transfer to conditioning.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="410"/>
         <source>Die Schnellgärprobe ist wichtig, wenn es etwa um die Vorhersage des richtigen Zeitpunktes beim Grünschlauchen geht. Auch lässt sich damit das Verhalten unbekannter Hefen beurteilen.</source>
-        <translation>The rapid fermentation test is important when it comes to predicting the right time for green hosing, for example. It can also be used to assess the behavior of unknown yeasts.</translation>
+        <translation>The fast fermentation sample is important when it comes to predicting the right time for transfer to conditioning, for example. It can also be used to assess the behavior of unknown yeasts.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="420"/>
@@ -1718,12 +1718,12 @@ When well maintained, this determines how accurately the program works. Standard
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="437"/>
         <source>In der Brauübersicht lassen sich die wichtigsten Kennzahlen in einem zeitlichen Verlauf darstellen.</source>
-        <translation>In the history, the most important key figures can be displayed over time.</translation>
+        <translation>In the batch history, the most important key figures can be displayed over time.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="537"/>
         <source>Nachgärung</source>
-        <translation>Priming/Conditioning</translation>
+        <translation>Conditioning</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="574"/>
@@ -1745,7 +1745,7 @@ When well maintained, this determines how accurately the program works. Standard
         <source>Bei ungebrauten Suden fasst der Spickzettel alle Informationen zum einem Brauprotokoll zusammen. Dies ist ausgedruckt am Brautag eine wertvolle Hilfe.
 Bei gebrauten Suden fasst die Zusammenfassung alle relevanten Informationen zusammen.</source>
         <translation>For unbrewed batches, the cheat sheet summarizes all the information in a brewing log. This is a valuable aid when printed out on the brewing day.
-For brewed brews, the summary summarizes all relevant information.</translation>
+For brewed batches, the summary summarizes all relevant information.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="551"/>
@@ -1896,7 +1896,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgetikett.ui" line="524"/>
         <source>Aus SVG übernehmen</source>
-        <translation>Take from SVG</translation>
+        <translation>Use SVG ratio</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgetikett.ui" line="534"/>
@@ -2236,7 +2236,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgmaischplanmalz.cpp" line="30"/>
         <source>Anteil</source>
-        <translation>Share</translation>
+        <translation>Proportion</translation>
     </message>
 </context>
 <context>
@@ -2297,7 +2297,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgprintout.ui" line="14"/>
         <source>Ausdruck</source>
-        <translation>Print-out</translation>
+        <translation>Printout</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgprintout.ui" line="103"/>
@@ -2434,7 +2434,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgrestextrakt.ui" line="88"/>
         <source>Spindel</source>
-        <translation>Spindle</translation>
+        <translation>Hydrometer</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrestextrakt.ui" line="93"/>
@@ -2504,22 +2504,22 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgrichtexteditor.ui" line="28"/>
         <source>Überschrift 1</source>
-        <translation>Headline 1</translation>
+        <translation>Heading 1</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrichtexteditor.ui" line="33"/>
         <source>Überschrift 2</source>
-        <translation>Headline 2</translation>
+        <translation>Heading 2</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrichtexteditor.ui" line="38"/>
         <source>Überschrift 3</source>
-        <translation>Headline 3</translation>
+        <translation>Heading 3</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrichtexteditor.ui" line="43"/>
         <source>Überschrift 4</source>
-        <translation>Headline 4</translation>
+        <translation>Heading 4</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrichtexteditor.ui" line="51"/>
@@ -2564,7 +2564,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgrichtexteditor.ui" line="321"/>
         <source>Bild</source>
-        <translation>Picture</translation>
+        <translation>Image</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrichtexteditor.ui" line="353"/>
@@ -2590,17 +2590,17 @@ For brewed brews, the summary summarizes all relevant information.</translation>
         <location filename="../dialogs/dlgrichtexteditor.cpp" line="401"/>
         <location filename="../dialogs/dlgrichtexteditor.cpp" line="411"/>
         <source>Bild einfügen</source>
-        <translation>Insert picture</translation>
+        <translation>Insert image</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrichtexteditor.cpp" line="401"/>
         <source>Bild aus Anhang</source>
-        <translation>Picture from attachment</translation>
+        <translation>Image from attachments</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrichtexteditor.cpp" line="411"/>
         <source>Bilder müssen zuerst als Anhang eingefügt werden.</source>
-        <translation>Pictures must be attached first.</translation>
+        <translation>Images must be attached first.</translation>
     </message>
 </context>
 <context>
@@ -2648,7 +2648,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgrohstoffauswahl.ui" line="93"/>
         <source>Die Zutaten müssen zuvor unter &quot;Rohstoffe&quot; eingetragen werden.</source>
-        <translation>The ingredients must first be entered in &quot;Ingredients&quot;.</translation>
+        <translation>The ingredients must first be entered in the raw material list.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrohstoffauswahl.cpp" line="120"/>
@@ -2690,8 +2690,8 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrohstoffvorlage.cpp" line="51"/>
-        <source>Quellen: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | ww.weyermann.de</source>
-        <translation>Sources: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | ww.weyermann.de</translation>
+        <source>Quellen: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | www.weyermann.de</source>
+        <translation>Sources: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | www.weyermann.de</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrohstoffvorlage.cpp" line="129"/>
@@ -2727,7 +2727,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgrohstoffvorlage.cpp" line="140"/>
         <source>Max. Anteil</source>
-        <translation>Max. share</translation>
+        <translation>Max. proportion</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrohstoffvorlage.cpp" line="156"/>
@@ -2860,12 +2860,12 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgrohstoffe.cpp" line="449"/>
         <source>Rohstoff wird verwendet</source>
-        <translation>Raw material is being used</translation>
+        <translation>Raw material is in use</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrohstoffe.cpp" line="450"/>
         <source>Dieser Rohstoff wird in einem noch nicht gebrauten Sud verwendet. Soll er trotzdem gelöscht werden?</source>
-        <translation>This ingredient is being used in a batch not yet brewed. Should it be deleted anyway?</translation>
+        <translation>This ingredient is in use in a batch not yet brewed. Should it be deleted anyway?</translation>
     </message>
 </context>
 <context>
@@ -2930,7 +2930,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgrohstoffeabziehen.cpp" line="66"/>
         <source>Die Zutaten wurden noch nicht abgezogen. Trotzdem schließen?</source>
-        <translation>Ingredients not yet subtracted; close anyway?</translation>
+        <translation>Ingredients have not yet been subtracted. Close anyway?</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrohstoffeabziehen.cpp" line="105"/>
@@ -3052,12 +3052,12 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgverdampfung.ui" line="20"/>
         <source>Berechnung der Verdampfung</source>
-        <translation>Calculate Evaporation</translation>
+        <translation>Calculate evaporation</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgverdampfung.ui" line="26"/>
         <source>Menge bei Kochbeginn (100°C)</source>
-        <translation>Amount at boil start (100°C)</translation>
+        <translation>Volume at boil start (100°C)</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgverdampfung.ui" line="32"/>
@@ -3069,7 +3069,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
         <location filename="../dialogs/dlgverdampfung.ui" line="39"/>
         <location filename="../dialogs/dlgverdampfung.ui" line="229"/>
         <source>Menge bei 100°C</source>
-        <translation>Amount at 100°C</translation>
+        <translation>Volume at 100°C</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgverdampfung.ui" line="74"/>
@@ -3090,7 +3090,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgverdampfung.ui" line="168"/>
         <source>Menge bei Kochende (100°C)</source>
-        <translation>Amount at boil end (100°C)</translation>
+        <translation>Volume at boil end (100°C)</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgverdampfung.ui" line="52"/>
@@ -3153,12 +3153,12 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgvolumen.ui" line="20"/>
         <source>Eingabehilfe für Volumen</source>
-        <translation>Input assistance for volume</translation>
+        <translation>Volume Calculator</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgvolumen.ui" line="36"/>
         <source>Würzemenge bei 20°C</source>
-        <translation>Amount of wort at 20°C</translation>
+        <translation>Volume of wort at 20°C</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgvolumen.ui" line="50"/>
@@ -3203,7 +3203,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgvolumen.ui" line="168"/>
         <source>Würzemenge bei aktueller Temperatur</source>
-        <translation>Amount of wort at current temperature</translation>
+        <translation>Volume of wort at current temperature</translation>
     </message>
 </context>
 <context>
@@ -3355,7 +3355,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../dialogs/dlgwasserprofile.ui" line="226"/>
         <source>Hydrogencarbonat (0 - 500 mg/l)</source>
-        <translation>Hydrogen carbonate (0 - 500 mg/l)</translation>
+        <translation>Bicarbonate (0 - 500 mg/l)</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgwasserprofile.ui" line="233"/>
@@ -3506,7 +3506,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../widgets/filterbuttonsud.cpp" line="58"/>
         <source>Stadium</source>
-        <translation>State</translation>
+        <translation>Status</translation>
     </message>
     <message>
         <location filename="../widgets/filterbuttonsud.cpp" line="59"/>
@@ -3532,7 +3532,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../widgets/filterbuttonsud.cpp" line="78"/>
         <source>Ausgetrunken</source>
-        <translation>Drank out</translation>
+        <translation>Consumed</translation>
     </message>
     <message>
         <location filename="../widgets/filterbuttonsud.cpp" line="93"/>
@@ -3547,7 +3547,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../widgets/filterbuttonsud.cpp" line="125"/>
         <source>Anlage</source>
-        <translation>Brewing equipment</translation>
+        <translation>Brewing system</translation>
     </message>
     <message>
         <location filename="../widgets/filterbuttonsud.cpp" line="142"/>
@@ -3637,7 +3637,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.ui" line="412"/>
         <source>Überschriften</source>
-        <translation>Headline</translation>
+        <translation>Headings</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="423"/>
@@ -3654,7 +3654,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.ui" line="332"/>
         <source>Brauübersicht</source>
-        <translation>History</translation>
+        <translation>Batch History</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="346"/>
@@ -3670,7 +3670,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
         <location filename="../mainwindow.ui" line="108"/>
         <location filename="../mainwindow.cpp" line="500"/>
         <source>Nachgärung</source>
-        <translation>Priming/Conditioning</translation>
+        <translation>Conditioning</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="357"/>
@@ -3680,7 +3680,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.ui" line="368"/>
         <source>Ausdruck</source>
-        <translation>Print-out</translation>
+        <translation>Printout</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="298"/>
@@ -3792,17 +3792,17 @@ For brewed brews, the summary summarizes all relevant information.</translation>
         <location filename="../mainwindow.cpp" line="283"/>
         <location filename="../mainwindow.cpp" line="302"/>
         <source>Anwendung schließen?</source>
-        <translation>Quit application?</translation>
+        <translation>Close application?</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="284"/>
         <source>Sollen die Änderungen vor dem Schließen gespeichert werden?</source>
-        <translation>Save changes before quitting?</translation>
+        <translation>Save changes before closing?</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="303"/>
         <source>Soll die Anwendung geschlossen werden?</source>
-        <translation>Quit application?</translation>
+        <translation>Close application?</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="340"/>
@@ -3873,7 +3873,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.cpp" line="705"/>
         <source>Braudatum</source>
-        <translation>Brew date</translation>
+        <translation>Brewing date</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="706"/>
@@ -3899,7 +3899,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.cpp" line="725"/>
         <source>Für Durchschnitt Ignorieren</source>
-        <translation>Ignore for average</translation>
+        <translation>Exclude from averages</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="728"/>
@@ -4076,7 +4076,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.cpp" line="715"/>
         <source>SHA</source>
-        <translation>Mash efficiency</translation>
+        <translation>Brewhouse efficiency</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="717"/>
@@ -4110,7 +4110,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.cpp" line="723"/>
         <source>Eff. SHA</source>
-        <translation>Brewhouse efficiency</translation>
+        <translation>Effective brewhouse efficiency</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="724"/>
@@ -4126,7 +4126,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.cpp" line="732"/>
         <source>Max. Anteil</source>
-        <translation>Max. share</translation>
+        <translation>Max. proportion</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="736"/>
@@ -4195,7 +4195,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.cpp" line="762"/>
         <source>Würzemenge</source>
-        <translation>Wort quantity</translation>
+        <translation>Wort volume</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="777"/>
@@ -4234,8 +4234,8 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="816"/>
-        <source>CO2</source>
-        <translation>CO2</translation>
+        <source>CO₂</source>
+        <translation>CO₂</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="829"/>
@@ -4256,7 +4256,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
         <location filename="../mainwindow.cpp" line="827"/>
         <location filename="../mainwindow.cpp" line="834"/>
         <source>Bezeichnung</source>
-        <translation>Designation</translation>
+        <translation>Name</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="797"/>
@@ -4294,7 +4294,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.cpp" line="853"/>
         <source>Soll diese zurückgesetzt werden (empfohlen)?</source>
-        <translation>Should this be reset (recommended)?</translation>
+        <translation>Should it be reset (recommended)?</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
@@ -4308,7 +4308,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
         <location filename="../mainwindow.cpp" line="926"/>
         <location filename="../mainwindow.cpp" line="945"/>
         <source>Der Sud wird nicht korrekt dargestellt.</source>
-        <translation>The batch is not displayed correctly.</translation>
+        <translation>The batch will not be displayed correctly.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="873"/>
@@ -4342,14 +4342,14 @@ For brewed brews, the summary summarizes all relevant information.</translation>
         <location filename="../mainwindow.cpp" line="896"/>
         <location filename="../mainwindow.cpp" line="906"/>
         <source>Das Modul &quot;Ausrüstung&quot; ist deaktiviert, aber es wurde für diese Anlage ein Korrekturwert (Nachgussmenge) angegeben.</source>
-        <translation>The &quot;Equipment&quot; module is disabled, but a correction value (post-casting quantity) has been specified for this equipment.</translation>
+        <translation>The &quot;Equipment&quot; module is disabled, but a correction value (sparge water quantity) has been specified for this equipment.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="897"/>
         <location filename="../mainwindow.cpp" line="916"/>
         <location filename="../mainwindow.cpp" line="935"/>
         <source>Soll dieser zurückgesetzt werden?</source>
-        <translation>Should this be reset?</translation>
+        <translation>Should it be reset?</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="905"/>
@@ -4373,7 +4373,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.cpp" line="954"/>
         <source>Betriebskosten zurücksetzen?</source>
-        <translation>Reset cotst?</translation>
+        <translation>Reset costs?</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="955"/>
@@ -4384,7 +4384,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../mainwindow.cpp" line="956"/>
         <source>Soll diese zurückgesetzt werden?</source>
-        <translation>Should this be reset?</translation>
+        <translation>Should it be reset?</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="964"/>
@@ -4490,7 +4490,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
     <message>
         <location filename="../main.cpp" line="166"/>
         <source>Datenbank konnte nicht wiederhergestellt werden.</source>
-        <translation>Database could not be recovered.</translation>
+        <translation>The database could not be restored.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="173"/>
@@ -4505,7 +4505,7 @@ For brewed brews, the summary summarizes all relevant information.</translation>
         <location filename="../main.cpp" line="131"/>
         <location filename="../main.cpp" line="178"/>
         <source>Sicherheitskopie konnte nicht erstellt werden.</source>
-        <translation>Backup could not be made.</translation>
+        <translation>Backup could not be created.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="190"/>
@@ -4539,7 +4539,7 @@ Should the local file be replaced?</translation>
         <source>SSL wird nicht unterstüzt.
 Version benötigt: %1
 Version installiert: %2</source>
-        <translation>SSL ist not supported.
+        <translation>SSL is not supported.
 Version required: %1
 Version installed: %2</translation>
     </message>
@@ -4549,7 +4549,7 @@ Version installed: %2</translation>
         <location filename="../main.cpp" line="454"/>
         <location filename="../main.cpp" line="460"/>
         <source>Programmfehler</source>
-        <translation>Program error</translation>
+        <translation>Application error</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="440"/>
@@ -4635,7 +4635,7 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.ui" line="462"/>
         <source>Restextrakt Jungbier</source>
-        <translation>Residual extract green beer</translation>
+        <translation>Residual extract young beer</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="701"/>
@@ -4646,7 +4646,7 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.ui" line="314"/>
         <source>Grünschlauchzeitpunkt</source>
-        <translation>Green bottling time</translation>
+        <translation>Transfer-to-conditioning time</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="603"/>
@@ -4661,7 +4661,7 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.ui" line="212"/>
         <source>Beginn der Reifung</source>
-        <translation>Beginnig of aging</translation>
+        <translation>Start of aging</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="20"/>
@@ -4759,7 +4759,7 @@ Version installed: %2</translation>
         <location filename="../tababfuellen.ui" line="792"/>
         <location filename="../tababfuellen.ui" line="801"/>
         <source>Spundungsdruck</source>
-        <translation>Bung pressure</translation>
+        <translation>Spunding pressure</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="821"/>
@@ -4769,13 +4769,13 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.ui" line="913"/>
         <source>Temperatur Jungbier</source>
-        <translation>Temperature green beer</translation>
+        <translation>Young beer temperature</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="952"/>
         <location filename="../tababfuellen.ui" line="1011"/>
         <source>Jungbiermenge</source>
-        <translation>Amount green beer</translation>
+        <translation>Young beer volume</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="961"/>
@@ -4785,7 +4785,7 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.ui" line="994"/>
         <source>Spunden</source>
-        <translation>Force carbonation</translation>
+        <translation>Spunding</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="1001"/>
@@ -4826,7 +4826,7 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.ui" line="1716"/>
         <source>Abgefüllte Menge</source>
-        <translation>Bottled amount</translation>
+        <translation>Bottled volume</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="1831"/>
@@ -4836,7 +4836,7 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.ui" line="2087"/>
         <source>Sud ausgetrunken</source>
-        <translation>Batch drank out</translation>
+        <translation>Batch consumed</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="1677"/>
@@ -4861,7 +4861,7 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.ui" line="1709"/>
         <source>Flaschengröße</source>
-        <translation>Bottle size</translation>
+        <translation>Bottle volume</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="1338"/>
@@ -4886,12 +4886,12 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.ui" line="1345"/>
         <source>Benötigte Speisemenge</source>
-        <translation>Needed amount of unfermented wort</translation>
+        <translation>Volume of unfermented wort needed</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="1808"/>
         <source>Anzahl Flaschen</source>
-        <translation>Amount of bottles</translation>
+        <translation>Number of bottles</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="1742"/>
@@ -4916,7 +4916,7 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.ui" line="1150"/>
         <source>Konzentration der Zuckerlösung</source>
-        <translation>Strength of sugar solution</translation>
+        <translation>Sugar solution concentration</translation>
     </message>
     <message>
         <location filename="../tababfuellen.ui" line="637"/>
@@ -5066,12 +5066,12 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.cpp" line="389"/>
         <source>Grünschlauchzeitpunkt nicht erreicht</source>
-        <translation>Time for green bottling not reached yet</translation>
+        <translation>Time for bottling not reached yet</translation>
     </message>
     <message>
         <location filename="../tababfuellen.cpp" line="390"/>
         <source>Der Grünschlauchzeitpunkt wurde noch nicht erreicht.</source>
-        <translation>Time for green bottling not reached yet.</translation>
+        <translation>Time for bottling not reached yet.</translation>
     </message>
     <message>
         <location filename="../tababfuellen.cpp" line="397"/>
@@ -5086,44 +5086,44 @@ Version installed: %2</translation>
     <message>
         <location filename="../tababfuellen.cpp" line="409"/>
         <source>Stadium auf &quot;abgefüllt&quot; setzen?</source>
-        <translation>Set stage to “bottled”?</translation>
+        <translation>Set status to “bottled”?</translation>
     </message>
     <message>
         <location filename="../tababfuellen.cpp" line="410"/>
         <source>Soll das Stadium auf &quot;abgefüllt&quot; gesetzt werden?
 Abfülldatum: %1</source>
-        <translation>Should the stage be set to “bottled”?
+        <translation>Should the status be set to “bottled”?
 Bottling date: %1</translation>
     </message>
     <message>
         <location filename="../tababfuellen.cpp" line="433"/>
         <source>Stadium &quot;abgefüllt&quot; zurücksetzen?</source>
-        <translation>Reset “bottled” stage?</translation>
+        <translation>Reset “bottled” status?</translation>
     </message>
     <message>
         <location filename="../tababfuellen.cpp" line="434"/>
         <source>Soll das Stadium &quot;abgefüllt&quot; zurückgesetzt werden?</source>
-        <translation>Should the “bottled” stage be reset?</translation>
+        <translation>Should the “bottled” status be reset?</translation>
     </message>
     <message>
         <location filename="../tababfuellen.cpp" line="445"/>
         <source>Stadium auf &quot;ausgetrunken&quot; setzen?</source>
-        <translation>Set stage to “drunk”?</translation>
+        <translation>Set status to &quot;consumed&quot;?</translation>
     </message>
     <message>
         <location filename="../tababfuellen.cpp" line="446"/>
         <source>Soll das Stadium auf &quot;ausgetrunken&quot; gesetzt werden?</source>
-        <translation>Should the stage be set to “drunk”?</translation>
+        <translation>Should the status be set to &quot;consumed&quot;?</translation>
     </message>
     <message>
         <location filename="../tababfuellen.cpp" line="455"/>
         <source>Stadium &quot;ausgetrunken&quot; zurücksetzen?</source>
-        <translation>Reset “drunk” stage?</translation>
+        <translation>Reset &quot;consumed&quot; status?</translation>
     </message>
     <message>
         <location filename="../tababfuellen.cpp" line="456"/>
         <source>Soll das Stadium &quot;ausgetrunken&quot; zurückgesetzt werden?</source>
-        <translation>Should the “drank” stage be reset?</translation>
+        <translation>Should the &quot;consumed&quot; status be reset?</translation>
     </message>
 </context>
 <context>
@@ -5132,7 +5132,7 @@ Bottling date: %1</translation>
         <location filename="../tabbraudaten.ui" line="54"/>
         <location filename="../tabbraudaten.ui" line="118"/>
         <source>Braudatum</source>
-        <translation>Brew date</translation>
+        <translation>Brewing date</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="75"/>
@@ -5147,12 +5147,12 @@ Bottling date: %1</translation>
     <message>
         <location filename="../tabbraudaten.ui" line="173"/>
         <source>Kochbeginn</source>
-        <translation>Begin of boil</translation>
+        <translation>Start of boil</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="490"/>
         <source>Würzemenge bei Kochbeginn (20°C)</source>
-        <translation>Amount at boil start (20°C)</translation>
+        <translation>Volume at boil start (20°C)</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="574"/>
@@ -5168,7 +5168,7 @@ Bottling date: %1</translation>
         <location filename="../tabbraudaten.ui" line="502"/>
         <location filename="../tabbraudaten.ui" line="1123"/>
         <source>Zielwürzemenge bei</source>
-        <translation>Target wort quantity at</translation>
+        <translation>Target wort volume at</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="673"/>
@@ -5204,7 +5204,7 @@ Bottling date: %1</translation>
     <message>
         <location filename="../tabbraudaten.ui" line="219"/>
         <source>Mit weiteren Zutaten &quot;Kochen&quot;</source>
-        <translation>including added ingredients for boil</translation>
+        <translation>including adjuncts for boil</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="371"/>
@@ -5277,7 +5277,7 @@ Bottling date: %1</translation>
     <message>
         <location filename="../tabbraudaten.ui" line="958"/>
         <source>Würzemenge vor Hopfenseihen (20°C)</source>
-        <translation>Amount of wort before hop straining (20°C)</translation>
+        <translation>Volume of wort before hop straining (20°C)</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="901"/>
@@ -5314,7 +5314,7 @@ Bottling date: %1</translation>
     <message>
         <location filename="../tabbraudaten.ui" line="1210"/>
         <source>Sudhausausbeute</source>
-        <translation>Mash efficiency</translation>
+        <translation>Brewhouse efficiency</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="1222"/>
@@ -5324,7 +5324,7 @@ Bottling date: %1</translation>
     <message>
         <location filename="../tabbraudaten.ui" line="1636"/>
         <source>Anstellen</source>
-        <translation>Pitch</translation>
+        <translation>Pitching</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="2184"/>
@@ -5371,7 +5371,7 @@ Bottling date: %1</translation>
         <location filename="../tabbraudaten.ui" line="654"/>
         <location filename="../tabbraudaten.ui" line="1001"/>
         <source>Zielwürzemenge bei 20°C</source>
-        <translation>Amount of wort at 20°C</translation>
+        <translation>Volume of wort at 20°C</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="704"/>
@@ -5451,7 +5451,7 @@ Bottling date: %1</translation>
     <message>
         <location filename="../tabbraudaten.ui" line="2506"/>
         <source>Würzemenge nach Hopfenseihen</source>
-        <translation>Amount of wort after hop straining</translation>
+        <translation>Wort volume after hop straining</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="1731"/>
@@ -5461,12 +5461,12 @@ Bottling date: %1</translation>
     <message>
         <location filename="../tabbraudaten.ui" line="2455"/>
         <source>Anstellmenge</source>
-        <translation>Pitching amount</translation>
+        <translation>Pitching volume</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="2542"/>
         <source>Gesamtwürzemenge</source>
-        <translation>Total wort quantity</translation>
+        <translation>Total wort volume</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.ui" line="1836"/>
@@ -5626,29 +5626,29 @@ Bottling date: %1</translation>
     <message>
         <location filename="../tabbraudaten.cpp" line="63"/>
         <source>Bemerkung Braudaten</source>
-        <translation>Comment brewing</translation>
+        <translation>Brewing notes</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.cpp" line="479"/>
         <source>Stadium auf &quot;gebraut&quot; setzen?</source>
-        <translation>Set stage to “brewed”?</translation>
+        <translation>Set status to “brewed”?</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.cpp" line="480"/>
         <source>Soll das Stadium auf &quot;gebraut&quot; gesetzt werden?
 Braudatum: %1</source>
-        <translation>Should the stage be set to “brewed”?
+        <translation>Should the status be set to “brewed”?
 Brewing date: %1</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.cpp" line="514"/>
         <source>Stadium &quot;gebraut&quot; zurücksetzen?</source>
-        <translation>Reset “brewed” stage?</translation>
+        <translation>Reset “brewed” status?</translation>
     </message>
     <message>
         <location filename="../tabbraudaten.cpp" line="515"/>
         <source>Soll das Stadium &quot;gebraut&quot; zurückgesetzt werden?</source>
-        <translation>Should the “brewed” stage be reset?</translation>
+        <translation>Should the “brewed” status be reset?</translation>
     </message>
 </context>
 <context>
@@ -5781,7 +5781,7 @@ Date2;Extract2;Temperature2[;Comment2]</translation>
     <message>
         <location filename="../tabgaerverlauf2.ui" line="23"/>
         <source>Nachgärung</source>
-        <translation>Priming/Conditioning</translation>
+        <translation>Conditioning</translation>
     </message>
     <message>
         <location filename="../tabgaerverlauf2.ui" line="84"/>
@@ -5868,7 +5868,7 @@ Date2;Pressure2;Temperature2[;Comment2]</translation>
         <location filename="../tabrezept.ui" line="149"/>
         <location filename="../tabrezept.ui" line="3508"/>
         <source>Sudhausausbeute</source>
-        <translation>Mash efficiency</translation>
+        <translation>Brewhouse efficiency</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="156"/>
@@ -5932,18 +5932,18 @@ Date2;Pressure2;Temperature2[;Comment2]</translation>
         <location filename="../tabrezept.ui" line="418"/>
         <location filename="../tabrezept.ui" line="3440"/>
         <source>Anlage</source>
-        <translation>Brewing equipment</translation>
+        <translation>Brewing system</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="425"/>
         <source>Nachisomerisierungszeit</source>
-        <translation>Hop stand</translation>
+        <translation>Post-isomerization</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="453"/>
         <location filename="../tabrezept.ui" line="655"/>
         <source>Anlagewert</source>
-        <translation>Equipment value</translation>
+        <translation>Brewing system value</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="532"/>
@@ -6024,12 +6024,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../tabrezept.ui" line="1039"/>
         <source>SHA anpassen</source>
-        <translation>Adapt mash efficiency</translation>
+        <translation>Adapt brewhouse efficiency</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="1122"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hier ist Platz für Bemerkungen zum Prozessschritt Maischen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../tabrezept.ui" line="1258"/>
+        <source>Die Summe der angegebenen Wassermengen entspricht nicht der Hauptgussmenge.</source>
+        <translation>The sum of the water quantities is not the same as the total strike water.</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="1415"/>
@@ -6157,7 +6162,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../tabrezept.ui" line="1483"/>
         <source>Prozentanteil entspricht</source>
-        <translation>Share corresponds to</translation>
+        <translation>Proportion corresponds to</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="749"/>
@@ -6367,7 +6372,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../tabrezept.ui" line="1016"/>
         <source>Die Summe der angegebenen Malzmengen entspricht nicht der Gesamtschüttung.</source>
-        <translation>The sum of malts is not the same as total grist.</translation>
+        <translation>The sum of the malt quantities does not equal the total grist.</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="1026"/>
@@ -6410,11 +6415,6 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../tabrezept.ui" line="1258"/>
-        <source>Die Summe der angegebenen Wassermengen entspricht nicht der Hautpgussmenge.</source>
-        <translation>The sum of the water quantities is not the same as the total strike water.</translation>
-    </message>
-    <message>
         <location filename="../tabrezept.ui" line="1275"/>
         <source>Hauptgussfaktor anpassen</source>
         <translation>Adapt water/grist ratio</translation>
@@ -6422,7 +6422,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../tabrezept.ui" line="1309"/>
         <source>Die Summe der angegebenen Schüttungsmengen entspricht nicht der Gesamtschüttung.</source>
-        <translation>The sum of malts is not the same as total grist.</translation>
+        <translation>The sum of the malt quantities does not equal the total grist.</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="1395"/>
@@ -6465,7 +6465,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../tabrezept.ui" line="1319"/>
         <location filename="../tabrezept.ui" line="1526"/>
         <source>Ausgleichen</source>
-        <translation>Level out</translation>
+        <translation>Balance</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="1809"/>
@@ -6637,7 +6637,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../tabrezept.ui" line="2788"/>
         <source>Anteile Stammwürze</source>
-        <translation>OG fraction</translation>
+        <translation>Original gravity proportions</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="2896"/>
@@ -6698,47 +6698,47 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../tabrezept.cpp" line="101"/>
         <source>Bemerkung Rezept</source>
-        <translation>Comment recipe</translation>
+        <translation>Recipe notes</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="103"/>
         <source>Bemerkung Maischen</source>
-        <translation>Comment mashing</translation>
+        <translation>Mashing notes</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="105"/>
         <source>Bemerkung Kochen</source>
-        <translation>Comment boil</translation>
+        <translation>Boiling notes</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="107"/>
         <source>Bemerkung Gärung</source>
-        <translation>Comment fermentation</translation>
+        <translation>Fermentation notes</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="109"/>
         <source>Bemerkung Maischplan</source>
-        <translation>Comment mash steps</translation>
+        <translation>Mashing scheme notes</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="111"/>
         <source>Bemerkung Wasseraufbereitung</source>
-        <translation>Comment water adjustment</translation>
+        <translation>Water adjustment notes</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="487"/>
         <source>Der Hopfen &quot;%1&quot; ist nicht in der Rohstoffliste vorhanden. Soll es jetzt hinzugefügt werden?</source>
-        <translation>Hop variant &quot;%1&quot; is not in stock. Should it be added?</translation>
+        <translation>Hop &quot;%1&quot; is not in the raw material list. Should it be added?</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="490"/>
         <source>Die Hefe &quot;%1&quot; ist nicht in der Rohstoffliste vorhanden. Soll es jetzt hinzugefügt werden?</source>
-        <translation>Yeast &quot;%1&quot; is not in stock. Should it be added?</translation>
+        <translation>Yeast &quot;%1&quot; is not in the raw material list. Should it be added?</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="493"/>
         <source>Die Zutat &quot;%1&quot; ist nicht in der Rohstoffliste vorhanden. Soll jetzt es hinzugefügt werden?</source>
-        <translation>Ingredient &quot;%1&quot; is not in stock. Should it be added?</translation>
+        <translation>Ingredient &quot;%1&quot; is not in the raw material list. Should it be added?</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="727"/>
@@ -6768,12 +6768,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../tabrezept.cpp" line="753"/>
         <source>Die Summe der angegebenen Hopfenmengen entspricht nicht der Gesamtmenge.</source>
-        <translation>The sum of the hops does not correspond to the required amount.</translation>
+        <translation>The sum of the hop quantities does not equal the total amount.</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="757"/>
         <source>Die Summe der angegebenen Anteile an Bittere entspricht nicht der Gesamtbittere.</source>
-        <translation>The sum of the bitterness values does not match the total bitterness.</translation>
+        <translation>The sum of the bitterness values does not equal the total bitterness.</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="876"/>
@@ -6788,12 +6788,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../tabrezept.cpp" line="1366"/>
         <source>Vergärungsgrad übernehmen?</source>
-        <translation>Take over fermentation level?</translation>
+        <translation>Apply yeast attenuation value?</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="1367"/>
         <source>Soll der Vergärungsgrad der Hefe (%1%) übernommen werden?</source>
-        <translation>Take over fermentation level (%1%)?</translation>
+        <translation>Apply yeast attenuation value (%1%)?</translation>
     </message>
     <message>
         <location filename="../tabrezept.cpp" line="1605"/>
@@ -7218,12 +7218,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/wdghopfengabe.ui" line="465"/>
         <source>Vorderwürze</source>
-        <translation>First wort</translation>
+        <translation>First wort hopping</translation>
     </message>
     <message>
         <location filename="../widgets/wdghopfengabe.ui" line="470"/>
         <source>Kochbeginn</source>
-        <translation>Begin of boil</translation>
+        <translation>Start of boil</translation>
     </message>
     <message>
         <location filename="../widgets/wdghopfengabe.ui" line="475"/>
@@ -7346,7 +7346,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/wdgmalzgabe.cpp" line="122"/>
         <source>Der maximal empfohlener Schüttungsanteil (%1%) wurde überschritten.</source>
-        <translation>Maximum recommend share (%1%) exceeded.</translation>
+        <translation>Maximum recommended proportion (%1%) exceeded.</translation>
     </message>
 </context>
 <context>
@@ -7505,7 +7505,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/wdgrast.cpp" line="11"/>
         <source>Gummirast (Glukanaserast)</source>
-        <translation>Acid rest</translation>
+        <translation>Beta-glucan rest</translation>
     </message>
     <message>
         <location filename="../widgets/wdgrast.cpp" line="12"/>
@@ -7515,7 +7515,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/wdgrast.cpp" line="13"/>
         <source>Weizenrast (Ferulsäurerast)</source>
-        <translation>Glucans rest</translation>
+        <translation>Ferulic acid rest</translation>
     </message>
     <message>
         <location filename="../widgets/wdgrast.cpp" line="14"/>
@@ -7617,7 +7617,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/wdgsudstatus.cpp" line="109"/>
         <source>Ausgetrunken</source>
-        <translation>Drank out</translation>
+        <translation>Consumed</translation>
     </message>
 </context>
 <context>
@@ -7861,7 +7861,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/wdgweiterezutatgabe.ui" line="242"/>
         <source>Bezogen auf Anstellmenge</source>
-        <translation>Relative to amount at pitch</translation>
+        <translation>Relative to pitching volume</translation>
     </message>
     <message>
         <location filename="../widgets/wdgweiterezutatgabe.ui" line="255"/>

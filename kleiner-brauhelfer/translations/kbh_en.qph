@@ -18,15 +18,15 @@
 </phrase>
 <phrase>
     <source>Würzemenge</source>
-    <target>Wort amount</target>
+    <target>Wort volume</target>
 </phrase>
 <phrase>
     <source>SHA</source>
-    <target>Mash efficiency</target>
+    <target>Brewhouse efficiency</target>
 </phrase>
 <phrase>
     <source>Eff. SHA</source>
-    <target>Brewhouse efficiency</target>
+    <target>Effective brewhouse efficiency</target>
 </phrase>
 <phrase>
     <source>Rezept</source>
@@ -38,7 +38,7 @@
 </phrase>
 <phrase>
     <source>Kochbeginn</source>
-    <target>Begin of boil</target>
+    <target>Start of boil</target>
 </phrase>
 <phrase>
     <source>Kochende</source>
@@ -54,7 +54,7 @@
 </phrase>
 <phrase>
     <source>Würzemenge</source>
-    <target>Wort amount</target>
+    <target>Wort volume</target>
 </phrase>
 <phrase>
     <source>Stammwürze</source>
@@ -62,15 +62,15 @@
 </phrase>
 <phrase>
     <source>Menge</source>
-    <target>Amount</target>
+    <target>Volume</target>
 </phrase>
 <phrase>
     <source>Menge Rezept</source>
-    <target>Amount recipe</target>
+    <target>Recipe volume</target>
 </phrase>
 <phrase>
     <source>SW Rezept</source>
-    <target>OG recipe</target>
+    <target>Recipe OG</target>
 </phrase>
 <phrase>
     <source>SW</source>
@@ -82,7 +82,7 @@
 </phrase>
 <phrase>
     <source>Anteil</source>
-    <target>Share</target>
+    <target>Proportion</target>
 </phrase>
 <phrase>
     <source>Bittere</source>
@@ -106,7 +106,7 @@
 </phrase>
 <phrase>
     <source>Anteil</source>
-    <target>Share</target>
+    <target>Proportion</target>
 </phrase>
 <phrase>
     <source>Menge</source>
@@ -158,11 +158,11 @@
 </phrase>
 <phrase>
     <source>Geräte</source>
-    <target>Gear</target>
+    <target>Equipment items</target>
 </phrase>
 <phrase>
     <source>Neues Gerät</source>
-    <target>New gear</target>
+    <target>New equipment item</target>
 </phrase>
 <phrase>
     <source>Sude</source>
@@ -170,7 +170,7 @@
 </phrase>
 <phrase>
     <source>Kernwerte der Anlage</source>
-    <target>Setup parameters</target>
+    <target>Brewing System Parameters</target>
 </phrase>
 <phrase>
     <source>Durchschnitt</source>
@@ -194,15 +194,19 @@
 </phrase>
 <phrase>
     <source>Bezeichnung</source>
-    <target>Designation</target>
+    <target>Name</target>
 </phrase>
 <phrase>
     <source>Anlagetyp</source>
     <target>Type</target>
 </phrase>
 <phrase>
+    <source>Anlagen</source>
+    <target>Brewing systems</target>
+</phrase>
+<phrase>
     <source>Sudhausausbeute</source>
-    <target>Mash efficiency</target>
+    <target>Brewhouse efficiency</target>
 </phrase>
 <phrase>
     <source>Betriebskosten</source>
@@ -210,11 +214,11 @@
 </phrase>
 <phrase>
     <source>Korrektur der Nachgussmenge</source>
-    <target>Correction of sparging water amount</target>
+    <target>Correction of sparge water volume</target>
 </phrase>
 <phrase>
     <source>Korrektur der Sollmenge</source>
-    <target>Correction of target quantity</target>
+    <target>Correction of target volume</target>
 </phrase>
 <phrase>
     <source>Maischekessel</source>
@@ -230,7 +234,7 @@
 </phrase>
 <phrase>
     <source>Nutzbares Volumen</source>
-    <target>Useable volume</target>
+    <target>Usable volume</target>
 </phrase>
 <phrase>
     <source>Höhe</source>
@@ -242,7 +246,7 @@
 </phrase>
 <phrase>
     <source>Sudpfanne</source>
-    <target>Brew kettle</target>
+    <target>Boiling kettle</target>
 </phrase>
 <phrase>
     <source>Bemerkung</source>
@@ -250,23 +254,23 @@
 </phrase>
 <phrase>
     <source>Neue Brauanlage</source>
-    <target>New brew equipment</target>
+    <target>New brewing system</target>
 </phrase>
 <phrase>
     <source>Brauanlage löschen?</source>
-    <target>Delete setup?</target>
+    <target>Delete brewing system?</target>
 </phrase>
 <phrase>
     <source>Soll die Brauanlage &quot;%1&quot; gelöscht werden?</source>
-    <target>Delete setup &quot;%1&quot;?</target>
+    <target>Delete brewing system &quot;%1&quot;?</target>
 </phrase>
 <phrase>
     <source>Gerät löschen?</source>
-    <target>Delete gear?</target>
+    <target>Delete equipment item?</target>
 </phrase>
 <phrase>
     <source>Soll das Gerät &quot;%1&quot; gelöscht werden?</source>
-    <target>Delete gear &quot;%1&quot;?</target>
+    <target>Delete equipment item &quot;%1&quot;?</target>
 </phrase>
 <phrase>
     <source>Bewertungen</source>
@@ -290,7 +294,7 @@
 </phrase>
 <phrase>
     <source>Bewertungsdatum</source>
-    <target>Evaluation date</target>
+    <target>Rating date</target>
 </phrase>
 <phrase>
     <source>Woche</source>
@@ -330,7 +334,7 @@
 </phrase>
 <phrase>
     <source>kunstvoll, kreativ, mutig</source>
-    <target>creative</target>
+    <target>artful, creative, bold</target>
 </phrase>
 <phrase>
     <source>einmal ist genug, langweilig</source>
@@ -398,15 +402,15 @@
 </phrase>
 <phrase>
     <source>grobporig, schwach</source>
-    <target>coarse, weak</target>
+    <target>coarse-pored, weak</target>
 </phrase>
 <phrase>
     <source>gut haftend am Glas</source>
-    <target>well adhering to glass</target>
+    <target>adheres well to glass</target>
 </phrase>
 <phrase>
     <source>schlecht haftend</source>
-    <target>poor adherence</target>
+    <target>poor retention</target>
 </phrase>
 <phrase>
     <source>gute Haltbarkeit</source>
@@ -430,7 +434,7 @@
 </phrase>
 <phrase>
     <source>sehr voluminös, mächtig</source>
-    <target>voluminous</target>
+    <target>very voluminous, dense</target>
 </phrase>
 <phrase>
     <source>überschäumend</source>
@@ -454,11 +458,11 @@
 </phrase>
 <phrase>
     <source>rein, abgerundet</source>
-    <target>clear, harmonic</target>
+    <target>clean, balanced</target>
 </phrase>
 <phrase>
     <source>unangenehm, unausgewogen</source>
-    <target>unround, unharmonic</target>
+    <target>unpleasant, unbalanced</target>
 </phrase>
 <phrase>
     <source>frisch</source>
@@ -470,7 +474,7 @@
 </phrase>
 <phrase>
     <source>wohlriechend</source>
-    <target>well smelling</target>
+    <target>pleasant aroma</target>
 </phrase>
 <phrase>
     <source>malzaromatisch, malzig</source>
@@ -486,7 +490,7 @@
 </phrase>
 <phrase>
     <source>Geruchsfehler</source>
-    <target>wrong, faulty</target>
+    <target>off-aroma</target>
 </phrase>
 <phrase>
     <source>Geschmack</source>
@@ -494,15 +498,15 @@
 </phrase>
 <phrase>
     <source>rein</source>
-    <target>clear</target>
+    <target>clean</target>
 </phrase>
 <phrase>
     <source>unausgewogen, kantig</source>
-    <target>unbalanced, edgy</target>
+    <target>unbalanced, harsh</target>
 </phrase>
 <phrase>
     <source>süsslich, klebrig</source>
-    <target>sweety, sticky</target>
+    <target>sweet, sticky</target>
 </phrase>
 <phrase>
     <source>gehaltvoll</source>
@@ -518,11 +522,11 @@
 </phrase>
 <phrase>
     <source>Geschmacksfehler</source>
-    <target>wrong/faulty</target>
+    <target>off-flavour</target>
 </phrase>
 <phrase>
     <source>Antrunk (Rezenz, Frischeeindruck)</source>
-    <target>First/Initial Impression</target>
+    <target>First Impression</target>
 </phrase>
 <phrase>
     <source>rezent, fein perlend</source>
@@ -570,7 +574,7 @@
 </phrase>
 <phrase>
     <source>mastig, breit</source>
-    <target>full-bodied</target>
+    <target>heavy, broad</target>
 </phrase>
 <phrase>
     <source>vollmundig</source>
@@ -590,7 +594,7 @@
 </phrase>
 <phrase>
     <source>unangenehm</source>
-    <target>unpleasent, unround</target>
+    <target>unpleasant</target>
 </phrase>
 <phrase>
     <source>nicht anhängend</source>
@@ -602,7 +606,7 @@
 </phrase>
 <phrase>
     <source>sehr herb, kräftig betont</source>
-    <target>very bitter, strongly emphasized</target>
+    <target>very bitter, strongly pronounced</target>
 </phrase>
 <phrase>
     <source>angenehm, ausgewogen</source>
@@ -610,7 +614,7 @@
 </phrase>
 <phrase>
     <source>wenig herb, unterentwickelt</source>
-    <target>little bitterness, underdeveloped</target>
+    <target>low bitterness, underdeveloped</target>
 </phrase>
 <phrase>
     <source>nicht oder kaum wahrnehmbar</source>
@@ -622,7 +626,7 @@
 </phrase>
 <phrase>
     <source>Brauübersicht</source>
-    <target>History</target>
+    <target>Batch History</target>
 </phrase>
 <phrase>
     <source>Gebraut zwischen</source>
@@ -646,7 +650,7 @@
 </phrase>
 <phrase>
     <source>Effektive Sudhausausbeute (⌀)</source>
-    <target>Brewhouse efficiency (⌀)</target>
+    <target>Effective brewhouse efficiency (⌀)</target>
 </phrase>
 <phrase>
     <source>Restextrakt (⌀)</source>
@@ -654,7 +658,7 @@
 </phrase>
 <phrase>
     <source>Sudhausausbeute (⌀)</source>
-    <target>Mash efficiency (⌀)</target>
+    <target>Brewhouse efficiency (⌀)</target>
 </phrase>
 <phrase>
     <source>Gesamtschüttung</source>
@@ -682,7 +686,7 @@
 </phrase>
 <phrase>
     <source>Biermenge (⌀)</source>
-    <target>Beer amount (⌀)</target>
+    <target>Beer volume (⌀)</target>
 </phrase>
 <phrase>
     <source>Gesamtkosten</source>
@@ -714,7 +718,7 @@
 </phrase>
 <phrase>
     <source>Sudhausausbeute</source>
-    <target>Mash efficiency</target>
+    <target>Brewhouse efficiency</target>
 </phrase>
 <phrase>
     <source>Effektive Sudhausausbeute</source>
@@ -750,7 +754,7 @@
 </phrase>
 <phrase>
     <source>Diese Version ignorieren</source>
-    <target>Ignore this version</target>
+    <target>Skip this version</target>
 </phrase>
 <phrase>
     <source>Auf Updates prüfen</source>
@@ -790,11 +794,11 @@
 </phrase>
 <phrase>
     <source>Anlage ID</source>
-    <target>Setup ID</target>
+    <target>Brewing system ID</target>
 </phrase>
 <phrase>
     <source>Anlage</source>
-    <target>Brewing equipment</target>
+    <target>Brewing system</target>
 </phrase>
 <phrase>
     <source>Ungültige Felder in Tabelle:</source>
@@ -806,7 +810,7 @@
 </phrase>
 <phrase>
     <source>Ungültige Anlage ID in Tabelle:</source>
-    <target>Invalid Setup ID in table:</target>
+    <target>Invalid brewing system ID in table:</target>
 </phrase>
 <phrase>
     <source>Ungültiger Wert in Tabelle:</source>
@@ -826,7 +830,7 @@
 </phrase>
 <phrase>
     <source>Ausgetrunken</source>
-    <target>Drank out</target>
+    <target>Consumed</target>
 </phrase>
 <phrase>
     <source>Keine</source>
@@ -926,11 +930,11 @@
 </phrase>
 <phrase>
     <source>Bestätigung beim Beenden</source>
-    <target>Confirm quitting</target>
+    <target>Confirm closing</target>
 </phrase>
 <phrase>
     <source>Zahlen- und Datumsformat aus Spracheinstellung (Neustart erforderlich)</source>
-    <target>Number und date format from language setting</target>
+    <target>Number and date format from language setting</target>
 </phrase>
 <phrase>
     <source>Systemschriftart</source>
@@ -945,12 +949,16 @@
     <target>Modules offer extended functionalities. These can be switched on or off here at any time.</target>
 </phrase>
 <phrase>
+    <source>Die Nachgärung ist die Phase nach der Hauptgärung, in der die verbliebene Hefe noch restlichen Zucker vergärt und dabei Kohlensäure sowie zusätzliche Aromen bildet. Sie findet meist in Flaschen, Fässern oder Lagertanks statt und sorgt dafür, dass das Bier seinen endgültigen Geschmack und seine Spritzigkeit erhält.</source>
+    <target>Conditioning is the stage following primary fermentation, during which the remaining yeast ferments the residual sugar, producing carbon dioxide and additional flavours. It usually takes place in bottles, barrels or storage tanks and ensures that the beer develops its final flavour and carbonation.</target>
+</phrase>
+<phrase>
     <source>Schnellgärprobe</source>
     <target>Fast fermentation sample</target>
 </phrase>
 <phrase>
     <source>Dieses Modul aktiviert die Speiseberechnung für die Karbonisierung (Nachgärung).</source>
-    <target>This module activates the unfermented worth calculation for carbonation.</target>
+    <target>This module activates the unfermented wort calculation for carbonation.</target>
 </phrase>
 <phrase>
     <source>Etikett</source>
@@ -958,7 +966,7 @@
 </phrase>
 <phrase>
     <source>Lagerverwaltung</source>
-    <target>Stock administration</target>
+    <target>Inventory management</target>
 </phrase>
 <phrase>
     <source>Preiskalkulation</source>
@@ -966,11 +974,11 @@
 </phrase>
 <phrase>
     <source>Damit lassen sich zeitliche Gärverläufe protokollieren (Hauptgärung, Nachgärung und Schnellgärprobe).</source>
-    <target>This allows logging of fermentation progressions over time (fermentation, priming/conditioning and fast fermentation sample).</target>
+    <target>This allows logging of fermentation progressions over time (primary fermentation, conditioning and fast fermentation sample).</target>
 </phrase>
 <phrase>
     <source>Dieses Modul verwaltet anlagespezifische Kennzahlen. Die wichtigsten sind dabei Sudhausausbeute und Verdampfungsrate. Für eine genauere Berechnung sollte dieses Modul aktiviert werden.</source>
-    <target>This module manages equipment-specific key figures. The most important of these are mash efficiency and evaporation rate. For a more precise calculation, this module should be activated.</target>
+    <target>This module manages equipment-specific key figures. The most important of these are brewhouse efficiency and evaporation rate. For a more precise calculation, this module should be activated.</target>
 </phrase>
 <phrase>
     <source>Speiseberechnung</source>
@@ -978,21 +986,21 @@
 </phrase>
 <phrase>
     <source>Dieses Modul berechnet den Preis pro Liter Bier. Voraussetzung ist die Eingabe alle Rohstoffpreise.</source>
-    <target>This module calculates the price per liter of beer. Prerequisite is the input of all raw material prices.</target>
+    <target>This module calculates the price per liter of beer. This requires entering the prices of all ingredients.</target>
 </phrase>
 <phrase>
     <source>Dieses Modul ermöglicht das Erstellen von Etiketten (Label) mit automatischer Einbindung der wichtigsten Kennzahlen (Stammwürze, IBU, Farbe, ...).</source>
-    <target>This module enables the creation of labels with automatic integration of the most important key figures (original wort, IBU, color, ...).</target>
+    <target>This module enables the creation of labels with automatic integration of the most important key figures (original gravity, IBU, color, ...).</target>
 </phrase>
 <phrase>
     <source>Der Gärverlauf gehört zu den wichtigsten Schritten nach dem Anstellen. Das Programm trennt in Schnellgärprobe, Hauptgärung und Nachgärung.
 Die graphische Auswertung lässt gute Rückschlüsse über die Gärbedingungen zu. Störungen oder Eigenarten bestimmter Hefen, die sich schon einmal &quot;schlafen legen&quot;, lassen sich so auf einen Blick identifizieren.</source>
-    <target>The fermentation process is one of the most important steps after pitching. The program distinguishes between rapid fermentation, main fermentation, and secondary fermentation.
+    <target>The fermentation process is one of the most important steps after pitching. The program distinguishes between fast fermentation, primary fermentation (short fermentation), and secondary fermentation (conditioning).
 The graphical evaluation allows for reliable conclusions about the fermentation conditions. Disturbances or peculiarities of certain yeasts that tend to “go to sleep” can thus be identified at a glance.</target>
 </phrase>
 <phrase>
     <source>Dieses Modul aktiviert die Lagerverwaltung der Rohstoffe.</source>
-    <target>This module activates the stock management of raw materials.</target>
+    <target>This module activates the inventory management of raw materials.</target>
 </phrase>
 <phrase>
     <source>Wasseraufbereitung</source>
@@ -1003,30 +1011,30 @@ The graphical evaluation allows for reliable conclusions about the fermentation 
     <target>Fermentation</target>
 </phrase>
 <phrase>
-    <source>Hiermit wird der Anteil an Speise verrechnet, der später in Reifeprozess für die Nachägrung – entweder in Flasche oder Fass – verwendet wird.
+    <source>Hiermit wird der Anteil an Speise verrechnet, der später in Reifeprozess für die Nachgärung – entweder in Flasche oder Fass – verwendet wird.
 Unter Speise versteht man einen zurückgehaltenen Teil der Würze, der vor dem Anstellen entnommen wird. Aus seinem Volumen und Zuckergehalt lässt sich die Karbonisierung berechnen.</source>
     <target>This is used to calculate the proportion of wort that will later be used in the maturation process for secondary fermentation, either in bottles or barrels.
 Wort refers to a portion of the wort that is retained before fermentation. Its volume and sugar content can be used to calculate carbonation.</target>
 </phrase>
 <phrase>
     <source>Dieses Modul ermöglicht das Bewerten von Suden.</source>
-    <target>This module enables rating of brews.</target>
+    <target>This module enables rating of batches.</target>
 </phrase>
 <phrase>
     <source>Brauübersicht</source>
-    <target>History</target>
+    <target>Batch History</target>
 </phrase>
 <phrase>
     <source>Ausdruck</source>
-    <target>Print-out</target>
+    <target>Printout</target>
 </phrase>
 <phrase>
     <source>Dieses Modul aktiviert die Schnellgärprobe für die Vorhersage des richtigen Zeitpunktes beim Grünschlauchen.</source>
-    <target>This module activates the rapid fermentation test for predicting the right time for green harvesting.</target>
+    <target>This module activates the fast fermentation sample for predicting the right time for transfer to conditioning.</target>
 </phrase>
 <phrase>
     <source>Die Schnellgärprobe ist wichtig, wenn es etwa um die Vorhersage des richtigen Zeitpunktes beim Grünschlauchen geht. Auch lässt sich damit das Verhalten unbekannter Hefen beurteilen.</source>
-    <target>The rapid fermentation test is important when it comes to predicting the right time for green hosing, for example. It can also be used to assess the behavior of unknown yeasts.</target>
+    <target>The fast fermentation sample is important when it comes to predicting the right time for transfer to conditioning, for example. It can also be used to assess the behavior of unknown yeasts.</target>
 </phrase>
 <phrase>
     <source>Dieses Modul ist unverzichtbar, um eine möglichst exakte Vorhersage zu Sudhausausbeute, Farbe und anderer Parameter bis Brauende zu bekommen.
@@ -1036,7 +1044,11 @@ When well maintained, this determines how accurately the program works. Standard
 </phrase>
 <phrase>
     <source>In der Brauübersicht lassen sich die wichtigsten Kennzahlen in einem zeitlichen Verlauf darstellen.</source>
-    <target>In the history, the most important key figures can be displayed over time.</target>
+    <target>In the batch history, the most important key figures can be displayed over time.</target>
+</phrase>
+<phrase>
+    <source>Nachgärung</source>
+    <target>Conditioning</target>
 </phrase>
 <phrase>
     <source>Dieses Modul hilft bei der Wasseraufbereitung und kalkuliert die Wasserprofile.</source>
@@ -1054,7 +1066,7 @@ When well maintained, this determines how accurately the program works. Standard
     <source>Bei ungebrauten Suden fasst der Spickzettel alle Informationen zum einem Brauprotokoll zusammen. Dies ist ausgedruckt am Brautag eine wertvolle Hilfe.
 Bei gebrauten Suden fasst die Zusammenfassung alle relevanten Informationen zusammen.</source>
     <target>For unbrewed batches, the cheat sheet summarizes all the information in a brewing log. This is a valuable aid when printed out on the brewing day.
-For brewed brews, the summary summarizes all relevant information.</target>
+For brewed batches, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Dieses Modul ermöglicht das Ausdrucken von Brauprotokolle oder andere Zusammenfassungen.</source>
@@ -1106,7 +1118,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Aus SVG übernehmen</source>
-    <target>Take from SVG</target>
+    <target>Use SVG ratio</target>
 </phrase>
 <phrase>
     <source>Farben</source>
@@ -1143,6 +1155,10 @@ For brewed brews, the summary summarizes all relevant information.</target>
 <phrase>
     <source>Alternativer SVG Renderer</source>
     <target>Alternative SVG renderer</target>
+</phrase>
+<phrase>
+    <source>&lt;leer&gt;</source>
+    <target>&lt;empty&gt;</target>
 </phrase>
 <phrase>
     <source>Änderungen speichern?</source>
@@ -1290,7 +1306,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Anteil</source>
-    <target>Share</target>
+    <target>Proportion</target>
 </phrase>
 <phrase>
     <source>Malz pH-Wert</source>
@@ -1322,7 +1338,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Ausdruck</source>
-    <target>Print-out</target>
+    <target>Printout</target>
 </phrase>
 <phrase>
     <source>Suche</source>
@@ -1378,7 +1394,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Spindel</source>
-    <target>Spindle</target>
+    <target>Hydrometer</target>
 </phrase>
 <phrase>
     <source>Refraktometer</source>
@@ -1410,19 +1426,19 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Überschrift 1</source>
-    <target>Headline 1</target>
+    <target>Heading 1</target>
 </phrase>
 <phrase>
     <source>Überschrift 2</source>
-    <target>Headline 2</target>
+    <target>Heading 2</target>
 </phrase>
 <phrase>
     <source>Überschrift 3</source>
-    <target>Headline 3</target>
+    <target>Heading 3</target>
 </phrase>
 <phrase>
     <source>Überschrift 4</source>
-    <target>Headline 4</target>
+    <target>Heading 4</target>
 </phrase>
 <phrase>
     <source>Textfarbe</source>
@@ -1446,7 +1462,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Bild</source>
-    <target>Picture</target>
+    <target>Image</target>
 </phrase>
 <phrase>
     <source>Link erstellen</source>
@@ -1458,15 +1474,15 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Bild einfügen</source>
-    <target>Insert picture</target>
+    <target>Insert image</target>
 </phrase>
 <phrase>
     <source>Bild aus Anhang</source>
-    <target>Picture from attachment</target>
+    <target>Image from attachments</target>
 </phrase>
 <phrase>
     <source>Bilder müssen zuerst als Anhang eingefügt werden.</source>
-    <target>Pictures must be attached first.</target>
+    <target>Images must be attached first.</target>
 </phrase>
 <phrase>
     <source>Zutatauswahl</source>
@@ -1486,7 +1502,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Die Zutaten müssen zuvor unter &quot;Rohstoffe&quot; eingetragen werden.</source>
-    <target>The ingredients must first be entered in &quot;Ingredients&quot;.</target>
+    <target>The ingredients must first be entered in the raw material list.</target>
 </phrase>
 <phrase>
     <source>Stk.</source>
@@ -1505,8 +1521,8 @@ For brewed brews, the summary summarizes all relevant information.</target>
     <target>Source: obrama.mueggelland.de</target>
 </phrase>
 <phrase>
-    <source>Quellen: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | ww.weyermann.de</source>
-    <target>Sources: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | ww.weyermann.de</target>
+    <source>Quellen: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | www.weyermann.de</source>
+    <target>Sources: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | www.weyermann.de</target>
 </phrase>
 <phrase>
     <source>Name</source>
@@ -1530,7 +1546,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Max. Anteil</source>
-    <target>Max. share</target>
+    <target>Max. proportion</target>
 </phrase>
 <phrase>
     <source>Alpha</source>
@@ -1602,11 +1618,11 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Rohstoff wird verwendet</source>
-    <target>Raw material is being used</target>
+    <target>Raw material is in use</target>
 </phrase>
 <phrase>
     <source>Dieser Rohstoff wird in einem noch nicht gebrauten Sud verwendet. Soll er trotzdem gelöscht werden?</source>
-    <target>This ingredient is being used in a batch not yet brewed. Should it be deleted anyway?</target>
+    <target>This ingredient is in use in a batch not yet brewed. Should it be deleted anyway?</target>
 </phrase>
 <phrase>
     <source>Zutaten vom Lager abziehen</source>
@@ -1630,7 +1646,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Die Zutaten wurden noch nicht abgezogen. Trotzdem schließen?</source>
-    <target>Ingredients not yet subtracted; close anyway?</target>
+    <target>Ingredients have not yet been subtracted. Close anyway?</target>
 </phrase>
 <phrase>
     <source>Malz</source>
@@ -1665,22 +1681,6 @@ For brewed brews, the summary summarizes all relevant information.</target>
     <target>Search</target>
 </phrase>
 <phrase>
-    <source>Hiermit wird eine neue Kategorie angelegt. Dazu erscheint ein eigenes Pop-up-Fenster.</source>
-    <target></target>
-</phrase>
-<phrase>
-    <source>Hiermit wird eine neue Kategorie entfernt. Eine oder mehrere Kategorien müssen dazu markiert sein.</source>
-    <target></target>
-</phrase>
-<phrase>
-    <source>Hiermit wird eine Kategorie nach oben verschoben.</source>
-    <target></target>
-</phrase>
-<phrase>
-    <source>Hiermit wird eine Kategorie nach unten verschoben.</source>
-    <target></target>
-</phrase>
-<phrase>
     <source>Aus Rezept übernehmen</source>
     <target>Copy from recipe</target>
 </phrase>
@@ -1690,11 +1690,11 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Berechnung der Verdampfung</source>
-    <target>Calculate Evaporation</target>
+    <target>Calculate evaporation</target>
 </phrase>
 <phrase>
     <source>Menge bei Kochbeginn (100°C)</source>
-    <target>Amount at boil start (100°C)</target>
+    <target>Volume at boil start (100°C)</target>
 </phrase>
 <phrase>
     <source>Füllhöhe vom Boden aus gemessen</source>
@@ -1702,7 +1702,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Menge bei 100°C</source>
-    <target>Amount at 100°C</target>
+    <target>Volume at 100°C</target>
 </phrase>
 <phrase>
     <source>Füllhöhe von Oberkante aus gemessen</source>
@@ -1710,7 +1710,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Menge bei Kochende (100°C)</source>
-    <target>Amount at boil end (100°C)</target>
+    <target>Volume at boil end (100°C)</target>
 </phrase>
 <phrase>
     <source>Verdampfungsziffer</source>
@@ -1726,11 +1726,11 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Eingabehilfe für Volumen</source>
-    <target>Input assistance for volume</target>
+    <target>Volume Calculator</target>
 </phrase>
 <phrase>
     <source>Würzemenge bei 20°C</source>
-    <target>Amount of wort at 20°C</target>
+    <target>Volume of wort at 20°C</target>
 </phrase>
 <phrase>
     <source>Temperatur der Würze</source>
@@ -1746,7 +1746,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Würzemenge bei aktueller Temperatur</source>
-    <target>Amount of wort at current temperature</target>
+    <target>Volume of wort at current temperature</target>
 </phrase>
 <phrase>
     <source>Wasseraufbereitung</source>
@@ -1814,7 +1814,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Hydrogencarbonat (0 - 500 mg/l)</source>
-    <target>Hydrogen carbonate (0 - 500 mg/l)</target>
+    <target>Bicarbonate (0 - 500 mg/l)</target>
 </phrase>
 <phrase>
     <source>Calcium (50 - 150 mg/l)</source>
@@ -1874,7 +1874,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Stadium</source>
-    <target>State</target>
+    <target>Status</target>
 </phrase>
 <phrase>
     <source>Alle</source>
@@ -1894,7 +1894,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Ausgetrunken</source>
-    <target>Drank out</target>
+    <target>Consumed</target>
 </phrase>
 <phrase>
     <source>Merkliste</source>
@@ -1906,7 +1906,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Anlage</source>
-    <target>Brewing equipment</target>
+    <target>Brewing system</target>
 </phrase>
 <phrase>
     <source>zwischen</source>
@@ -1929,12 +1929,12 @@ For brewed brews, the summary summarizes all relevant information.</target>
     <target>Brewing</target>
 </phrase>
 <phrase>
-    <source>Abfülldaten</source>
-    <target>Bottling</target>
+    <source>Hauptgärung</source>
+    <target>Fermentation</target>
 </phrase>
 <phrase>
-    <source>Gärverlauf</source>
-    <target>Fermentation</target>
+    <source>Abfülldaten</source>
+    <target>Bottling</target>
 </phrase>
 <phrase>
     <source>Dialoge</source>
@@ -1974,7 +1974,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Überschriften</source>
-    <target>Headline</target>
+    <target>Headings</target>
 </phrase>
 <phrase>
     <source>Oben / Rechts</source>
@@ -1986,7 +1986,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Brauübersicht</source>
-    <target>History</target>
+    <target>Batch History</target>
 </phrase>
 <phrase>
     <source>Ausrüstung</source>
@@ -1997,12 +1997,16 @@ For brewed brews, the summary summarizes all relevant information.</target>
     <target>Ingredients</target>
 </phrase>
 <phrase>
+    <source>Nachgärung</source>
+    <target>Conditioning</target>
+</phrase>
+<phrase>
     <source>Datenbank</source>
     <target>Database</target>
 </phrase>
 <phrase>
     <source>Ausdruck</source>
-    <target>Print-out</target>
+    <target>Printout</target>
 </phrase>
 <phrase>
     <source>Hilfe</source>
@@ -2090,15 +2094,15 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Anwendung schließen?</source>
-    <target>Quit application?</target>
+    <target>Close application?</target>
 </phrase>
 <phrase>
     <source>Sollen die Änderungen vor dem Schließen gespeichert werden?</source>
-    <target>Save changes before quitting?</target>
+    <target>Save changes before closing?</target>
 </phrase>
 <phrase>
     <source>Soll die Anwendung geschlossen werden?</source>
-    <target>Quit application?</target>
+    <target>Close application?</target>
 </phrase>
 <phrase>
     <source>Änderungen speichern?</source>
@@ -2150,7 +2154,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Braudatum</source>
-    <target>Brew date</target>
+    <target>Brewing date</target>
 </phrase>
 <phrase>
     <source>Abfülldatum</source>
@@ -2170,7 +2174,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Für Durchschnitt Ignorieren</source>
-    <target>Ignore for average</target>
+    <target>Exclude from averages</target>
 </phrase>
 <phrase>
     <source>Name</source>
@@ -2286,7 +2290,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>SHA</source>
-    <target>Mash efficiency</target>
+    <target>Brewhouse efficiency</target>
 </phrase>
 <phrase>
     <source>Restextrakt</source>
@@ -2310,7 +2314,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Eff. SHA</source>
-    <target>Brewhouse efficiency</target>
+    <target>Effective brewhouse efficiency</target>
 </phrase>
 <phrase>
     <source>Verdampfungsrate</source>
@@ -2322,7 +2326,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Max. Anteil</source>
-    <target>Max. share</target>
+    <target>Max. proportion</target>
 </phrase>
 <phrase>
     <source>Preis</source>
@@ -2370,7 +2374,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Würzemenge</source>
-    <target>Wort quantity</target>
+    <target>Wort volume</target>
 </phrase>
 <phrase>
     <source>Ausbeute</source>
@@ -2399,8 +2403,8 @@ For brewed brews, the summary summarizes all relevant information.</target>
     <target>Pressure</target>
 </phrase>
 <phrase>
-    <source>CO2</source>
-    <target>CO2</target>
+    <source>CO₂</source>
+    <target>CO₂</target>
 </phrase>
 <phrase>
     <source>Vermögen</source>
@@ -2416,7 +2420,11 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Bezeichnung</source>
-    <target>Designation</target>
+    <target>Name</target>
+</phrase>
+<phrase>
+    <source>Tage</source>
+    <target>Days</target>
 </phrase>
 <phrase>
     <source>Tag</source>
@@ -2440,7 +2448,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Soll diese zurückgesetzt werden (empfohlen)?</source>
-    <target>Should this be reset (recommended)?</target>
+    <target>Should it be reset (recommended)?</target>
 </phrase>
 <phrase>
     <source>Speisemenge</source>
@@ -2448,7 +2456,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Der Sud wird nicht korrekt dargestellt.</source>
-    <target>The batch is not displayed correctly.</target>
+    <target>The batch will not be displayed correctly.</target>
 </phrase>
 <phrase>
     <source>Schnellgärprobe deaktivieren?</source>
@@ -2472,11 +2480,11 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Das Modul &quot;Ausrüstung&quot; ist deaktiviert, aber es wurde für diese Anlage ein Korrekturwert (Nachgussmenge) angegeben.</source>
-    <target>The &quot;Equipment&quot; module is disabled, but a correction value (post-casting quantity) has been specified for this equipment.</target>
+    <target>The &quot;Equipment&quot; module is disabled, but a correction value (sparge water quantity) has been specified for this equipment.</target>
 </phrase>
 <phrase>
     <source>Soll dieser zurückgesetzt werden?</source>
-    <target>Should this be reset?</target>
+    <target>Should it be reset?</target>
 </phrase>
 <phrase>
     <source>Korrekturwert</source>
@@ -2492,7 +2500,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Betriebskosten zurücksetzen?</source>
-    <target>Reset cotst?</target>
+    <target>Reset costs?</target>
 </phrase>
 <phrase>
     <source>Das Modul &quot;Ausrüstung&quot; ist deaktiviert, aber es wurde für diese Anlage Betriebskosten angegeben.</source>
@@ -2500,7 +2508,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Soll diese zurückgesetzt werden?</source>
-    <target>Should this be reset?</target>
+    <target>Should it be reset?</target>
 </phrase>
 <phrase>
     <source>Betriebskosten</source>
@@ -2576,7 +2584,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Datenbank konnte nicht wiederhergestellt werden.</source>
-    <target>Database could not be recovered.</target>
+    <target>The database could not be restored.</target>
 </phrase>
 <phrase>
     <source>Aktualisierung fehlgeschlagen.
@@ -2588,7 +2596,7 @@ For brewed brews, the summary summarizes all relevant information.</target>
 </phrase>
 <phrase>
     <source>Sicherheitskopie konnte nicht erstellt werden.</source>
-    <target>Backup could not be made.</target>
+    <target>Backup could not be created.</target>
 </phrase>
 <phrase>
     <source>Die Datenbank &quot;%1&quot; konnte nicht geöffnet werden.</source>
@@ -2616,13 +2624,13 @@ Should the local file be replaced?</target>
     <source>SSL wird nicht unterstüzt.
 Version benötigt: %1
 Version installiert: %2</source>
-    <target>SSL ist not supported.
+    <target>SSL is not supported.
 Version required: %1
 Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Programmfehler</source>
-    <target>Program error</target>
+    <target>Application error</target>
 </phrase>
 <phrase>
     <source>Unbekannter Fehler.</source>
@@ -2674,7 +2682,7 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Restextrakt Jungbier</source>
-    <target>Residual extract green beer</target>
+    <target>Residual extract young beer</target>
 </phrase>
 <phrase>
     <source>Alkoholgehalt</source>
@@ -2682,7 +2690,7 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Grünschlauchzeitpunkt</source>
-    <target>Green bottling time</target>
+    <target>Transfer-to-conditioning time</target>
 </phrase>
 <phrase>
     <source>Restextrakt der Schnellgärprobe</source>
@@ -2694,7 +2702,7 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Beginn der Reifung</source>
-    <target>Beginnig of aging</target>
+    <target>Start of aging</target>
 </phrase>
 <phrase>
     <source>Abfülldaten</source>
@@ -2718,15 +2726,15 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Spundungsdruck</source>
-    <target>Bung pressure</target>
+    <target>Spunding pressure</target>
 </phrase>
 <phrase>
     <source>Temperatur Jungbier</source>
-    <target>Temperature green beer</target>
+    <target>Young beer temperature</target>
 </phrase>
 <phrase>
     <source>Jungbiermenge</source>
-    <target>Amount green beer</target>
+    <target>Young beer volume</target>
 </phrase>
 <phrase>
     <source>Verlust seit Anstellen</source>
@@ -2734,7 +2742,7 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Spunden</source>
-    <target>Force carbonation</target>
+    <target>Spunding</target>
 </phrase>
 <phrase>
     <source>pro Flasche</source>
@@ -2746,11 +2754,11 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Abgefüllte Menge</source>
-    <target>Bottled amount</target>
+    <target>Bottled volume</target>
 </phrase>
 <phrase>
     <source>Sud ausgetrunken</source>
-    <target>Batch drank out</target>
+    <target>Batch consumed</target>
 </phrase>
 <phrase>
     <source>Karbonisierung</source>
@@ -2758,7 +2766,7 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Flaschengröße</source>
-    <target>Bottle size</target>
+    <target>Bottle volume</target>
 </phrase>
 <phrase>
     <source>Verfügbare Speisemenge</source>
@@ -2766,11 +2774,11 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Benötigte Speisemenge</source>
-    <target>Needed amount of unfermented wort</target>
+    <target>Volume of unfermented wort needed</target>
 </phrase>
 <phrase>
     <source>Anzahl Flaschen</source>
-    <target>Amount of bottles</target>
+    <target>Number of bottles</target>
 </phrase>
 <phrase>
     <source>Zusätzlich benötigter Zucker</source>
@@ -2778,7 +2786,7 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Konzentration der Zuckerlösung</source>
-    <target>Strength of sugar solution</target>
+    <target>Sugar solution concentration</target>
 </phrase>
 <phrase>
     <source>Endvergärungsgrad</source>
@@ -2830,11 +2838,11 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Grünschlauchzeitpunkt nicht erreicht</source>
-    <target>Time for green bottling not reached yet</target>
+    <target>Time for bottling not reached yet</target>
 </phrase>
 <phrase>
     <source>Der Grünschlauchzeitpunkt wurde noch nicht erreicht.</source>
-    <target>Time for green bottling not reached yet.</target>
+    <target>Time for bottling not reached yet.</target>
 </phrase>
 <phrase>
     <source>Schnellgärprobe</source>
@@ -2846,41 +2854,41 @@ Version installed: %2</target>
 </phrase>
 <phrase>
     <source>Stadium auf &quot;abgefüllt&quot; setzen?</source>
-    <target>Set stage to “bottled”?</target>
+    <target>Set status to “bottled”?</target>
 </phrase>
 <phrase>
     <source>Soll das Stadium auf &quot;abgefüllt&quot; gesetzt werden?
 Abfülldatum: %1</source>
-    <target>Should the stage be set to “bottled”?
+    <target>Should the status be set to “bottled”?
 Bottling date: %1</target>
 </phrase>
 <phrase>
     <source>Stadium &quot;abgefüllt&quot; zurücksetzen?</source>
-    <target>Reset “bottled” stage?</target>
+    <target>Reset “bottled” status?</target>
 </phrase>
 <phrase>
     <source>Soll das Stadium &quot;abgefüllt&quot; zurückgesetzt werden?</source>
-    <target>Should the “bottled” stage be reset?</target>
+    <target>Should the “bottled” status be reset?</target>
 </phrase>
 <phrase>
     <source>Stadium auf &quot;ausgetrunken&quot; setzen?</source>
-    <target>Set stage to “drunk”?</target>
+    <target>Set status to &quot;consumed&quot;?</target>
 </phrase>
 <phrase>
     <source>Soll das Stadium auf &quot;ausgetrunken&quot; gesetzt werden?</source>
-    <target>Should the stage be set to “drunk”?</target>
+    <target>Should the status be set to &quot;consumed&quot;?</target>
 </phrase>
 <phrase>
     <source>Stadium &quot;ausgetrunken&quot; zurücksetzen?</source>
-    <target>Reset “drunk” stage?</target>
+    <target>Reset &quot;consumed&quot; status?</target>
 </phrase>
 <phrase>
     <source>Soll das Stadium &quot;ausgetrunken&quot; zurückgesetzt werden?</source>
-    <target>Should the “drank” stage be reset?</target>
+    <target>Should the &quot;consumed&quot; status be reset?</target>
 </phrase>
 <phrase>
     <source>Braudatum</source>
-    <target>Brew date</target>
+    <target>Brewing date</target>
 </phrase>
 <phrase>
     <source>Jetzt</source>
@@ -2888,15 +2896,15 @@ Bottling date: %1</target>
 </phrase>
 <phrase>
     <source>Kochbeginn</source>
-    <target>Begin of boil</target>
+    <target>Start of boil</target>
 </phrase>
 <phrase>
     <source>Würzemenge bei Kochbeginn (20°C)</source>
-    <target>Amount at boil start (20°C)</target>
+    <target>Volume at boil start (20°C)</target>
 </phrase>
 <phrase>
     <source>Zielwürzemenge bei</source>
-    <target>Target wort quantity at</target>
+    <target>Target wort volume at</target>
 </phrase>
 <phrase>
     <source>Füllhöhe von Oberkante aus gemessen</source>
@@ -2904,7 +2912,7 @@ Bottling date: %1</target>
 </phrase>
 <phrase>
     <source>Mit weiteren Zutaten &quot;Kochen&quot;</source>
-    <target>including added ingredients for boil</target>
+    <target>including adjuncts for boil</target>
 </phrase>
 <phrase>
     <source>Füllhöhe vom Boden aus gemessen</source>
@@ -2936,7 +2944,7 @@ Bottling date: %1</target>
 </phrase>
 <phrase>
     <source>Würzemenge vor Hopfenseihen (20°C)</source>
-    <target>Amount of wort before hop straining (20°C)</target>
+    <target>Volume of wort before hop straining (20°C)</target>
 </phrase>
 <phrase>
     <source>Aus Rezept</source>
@@ -2952,11 +2960,11 @@ Bottling date: %1</target>
 </phrase>
 <phrase>
     <source>Sudhausausbeute</source>
-    <target>Mash efficiency</target>
+    <target>Brewhouse efficiency</target>
 </phrase>
 <phrase>
     <source>Anstellen</source>
-    <target>Pitch</target>
+    <target>Pitching</target>
 </phrase>
 <phrase>
     <source>Abgefüllte Speisemenge</source>
@@ -2972,7 +2980,7 @@ Bottling date: %1</target>
 </phrase>
 <phrase>
     <source>Zielwürzemenge bei 20°C</source>
-    <target>Amount of wort at 20°C</target>
+    <target>Volume of wort at 20°C</target>
 </phrase>
 <phrase>
     <source>Temp</source>
@@ -2980,15 +2988,15 @@ Bottling date: %1</target>
 </phrase>
 <phrase>
     <source>Würzemenge nach Hopfenseihen</source>
-    <target>Amount of wort after hop straining</target>
+    <target>Wort volume after hop straining</target>
 </phrase>
 <phrase>
     <source>Anstellmenge</source>
-    <target>Pitching amount</target>
+    <target>Pitching volume</target>
 </phrase>
 <phrase>
     <source>Gesamtwürzemenge</source>
-    <target>Total wort quantity</target>
+    <target>Total wort volume</target>
 </phrase>
 <phrase>
     <source>SRE</source>
@@ -3040,25 +3048,29 @@ Bottling date: %1</target>
 </phrase>
 <phrase>
     <source>Bemerkung Braudaten</source>
-    <target>Comment brewing</target>
+    <target>Brewing notes</target>
 </phrase>
 <phrase>
     <source>Stadium auf &quot;gebraut&quot; setzen?</source>
-    <target>Set stage to “brewed”?</target>
+    <target>Set status to “brewed”?</target>
 </phrase>
 <phrase>
     <source>Soll das Stadium auf &quot;gebraut&quot; gesetzt werden?
 Braudatum: %1</source>
-    <target>Should the stage be set to “brewed”?
+    <target>Should the status be set to “brewed”?
 Brewing date: %1</target>
 </phrase>
 <phrase>
     <source>Stadium &quot;gebraut&quot; zurücksetzen?</source>
-    <target>Reset “brewed” stage?</target>
+    <target>Reset “brewed” status?</target>
 </phrase>
 <phrase>
     <source>Soll das Stadium &quot;gebraut&quot; zurückgesetzt werden?</source>
-    <target>Should the “brewed” stage be reset?</target>
+    <target>Should the “brewed” status be reset?</target>
+</phrase>
+<phrase>
+    <source>Gärverlauf</source>
+    <target>Fermentation</target>
 </phrase>
 <phrase>
     <source>Schnellgärprobe</source>
@@ -3081,10 +3093,6 @@ Brewing date: %1</target>
     <target>Remove</target>
 </phrase>
 <phrase>
-    <source>Nachgärung</source>
-    <target>Priming/Conditioning</target>
-</phrase>
-<phrase>
     <source>Restextrakt</source>
     <target>Residual extract</target>
 </phrase>
@@ -3097,12 +3105,38 @@ Brewing date: %1</target>
     <target>Temperature</target>
 </phrase>
 <phrase>
+    <source>CSV Datei auswählen</source>
+    <target>Select CSV file</target>
+</phrase>
+<phrase>
+    <source>CSV Datei (*.csv);;Alle Dateien (*.*)</source>
+    <target>CSV File (*.csv);;All files (*.*)</target>
+</phrase>
+<phrase>
+    <source>Nicht alle Einträge konnten importiert werden.
+Unterstütztes Format:
+Datum1;Restextrakt1;Temperatur1[;Bemerkung1]
+Datum2;Restextrakt2;Temperatur2[;Bemerkung2]</source>
+    <target>Not all entries could be imported.
+Supported format:
+Date1;Extract1;Temperature1[;Comment1]
+Date2;Extract2;Temperature2[;Comment2]</target>
+</phrase>
+<phrase>
+    <source>Nachgärung</source>
+    <target>Conditioning</target>
+</phrase>
+<phrase>
     <source>CO₂</source>
-    <target></target>
+    <target>CO₂</target>
 </phrase>
 <phrase>
     <source>Druck</source>
     <target>Pressure</target>
+</phrase>
+<phrase>
+    <source>Temperatur</source>
+    <target>Temperature</target>
 </phrase>
 <phrase>
     <source>CSV Datei auswählen</source>
@@ -3115,16 +3149,6 @@ Brewing date: %1</target>
 <phrase>
     <source>Gärverlauf</source>
     <target>Fermentation</target>
-</phrase>
-<phrase>
-    <source>Nicht alle Einträge konnten importiert werden.
-Unterstütztes Format:
-Datum1;Restextrakt1;Temperatur1[;Bemerkung1]
-Datum2;Restextrakt2;Temperatur2[;Bemerkung2]</source>
-    <target>Not all entries could be imported.
-Supported format:
-Date1;Extract1;Temperature1[;Comment1]
-Date2;Extract2;Temperature2[;Comment2]</target>
 </phrase>
 <phrase>
     <source>Nicht alle Einträge konnten importiert werden.
@@ -3146,7 +3170,7 @@ Date2;Pressure2;Temperature2[;Comment2]</target>
 </phrase>
 <phrase>
     <source>Sudhausausbeute</source>
-    <target>Mash efficiency</target>
+    <target>Brewhouse efficiency</target>
 </phrase>
 <phrase>
     <source>Bittere</source>
@@ -3190,15 +3214,15 @@ Date2;Pressure2;Temperature2[;Comment2]</target>
 </phrase>
 <phrase>
     <source>Anlage</source>
-    <target>Brewing equipment</target>
+    <target>Brewing system</target>
 </phrase>
 <phrase>
     <source>Nachisomerisierungszeit</source>
-    <target>Hop stand</target>
+    <target>Post-isomerization</target>
 </phrase>
 <phrase>
     <source>Anlagewert</source>
-    <target>Setup value</target>
+    <target>Brewing system value</target>
 </phrase>
 <phrase>
     <source>Menge</source>
@@ -3221,8 +3245,20 @@ Date2;Pressure2;Temperature2[;Comment2]</target>
     <target>Tags</target>
 </phrase>
 <phrase>
+    <source>Schüttung</source>
+    <target>Grist</target>
+</phrase>
+<phrase>
     <source>SHA anpassen</source>
-    <target>Adapt mash efficiency</target>
+    <target>Adapt brewhouse efficiency</target>
+</phrase>
+<phrase>
+    <source>Die Summe der angegebenen Wassermengen entspricht nicht der Hauptgussmenge.</source>
+    <target>The sum of the water quantities is not the same as the total strike water.</target>
+</phrase>
+<phrase>
+    <source>Schritt</source>
+    <target>Step</target>
 </phrase>
 <phrase>
     <source>Zusätze &quot;Maischen&quot;</source>
@@ -3239,10 +3275,6 @@ Date2;Pressure2;Temperature2[;Comment2]</target>
 <phrase>
     <source>Hopfen</source>
     <target>Hops</target>
-</phrase>
-<phrase>
-    <source>Maischen</source>
-    <target>Mashing</target>
 </phrase>
 <phrase>
     <source>Zusatz</source>
@@ -3262,7 +3294,7 @@ Date2;Pressure2;Temperature2[;Comment2]</target>
 </phrase>
 <phrase>
     <source>Prozentanteil entspricht</source>
-    <target>Share corresponds to</target>
+    <target>Proportion corresponds to</target>
 </phrase>
 <phrase>
     <source>Die Berechnung der Hopfengaben ist deaktiviert.</source>
@@ -3305,51 +3337,8 @@ Date2;Pressure2;Temperature2[;Comment2]</target>
     <target>Target</target>
 </phrase>
 <phrase>
-    <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Hier wird die angepeilte &lt;span style=&quot; font-weight:600;&quot;&gt;Reifezeit&lt;/span&gt; des Jungbieres bis zur ersten Verkostung angegeben.&lt;/p&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Vorschlag der Reifezeit: &lt;br /&gt;&lt;/span&gt;Danke &lt;a href=&quot;https://malzknecht.de/lagerzeit-reifezeit/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Malzknecht&lt;/span&gt;&lt;/a&gt; für die Zurverfügungstellung!&lt;/p&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Altbier: 3-6 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Amber Ale: 3-6 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Barley Wine: Mindestens 12 Monate&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Bitter: 3-6 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Blonde: 1-4 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Bock (div.): 3-6 Monate&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Brown Ale: 3-6 Monate&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Doppelbock: 4-6 Monate&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Dry Stout: 4-8 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Dubbel: Mindestens 8 Monate&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Export: 4-8 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Fruchtbier: 1-4 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Helles / Dunkles: 4-8 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Imperial Stout: 4-6 Monate&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;IPA: 3-6 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Kölsch: 3-6 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Lager: 4-8 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Maibock: 6-8 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Märzen / Oktoberfestbier: 6-8 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Mild Ale: 3-6 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Old Ale: 2-3 Monate&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pale Ale: 3-6 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pilsner: 6-8 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Quadrupel: Mindestens 8 Monate&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Rauchbier: 3-6 Monate&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Saison: 2-3 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Schwarzbier: 3-6 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tripel: Mindestens 8 Monate&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Weizen: 1-4 Wochen&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Wit: 1-6 Wochen&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-    <target></target>
-</phrase>
-<phrase>
     <source>Die Summe der angegebenen Malzmengen entspricht nicht der Gesamtschüttung.</source>
-    <target>The sum of malts is not the same as total grist.</target>
-</phrase>
-<phrase>
-    <source>Die Summe der angegebenen Wassermengen entspricht nicht der Hautpgussmenge.</source>
-    <target>The sum of the water quantities is not the same as the total strike water.</target>
+    <target>The sum of the malt quantities does not equal the total grist.</target>
 </phrase>
 <phrase>
     <source>Hauptgussfaktor anpassen</source>
@@ -3357,7 +3346,7 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Die Summe der angegebenen Schüttungsmengen entspricht nicht der Gesamtschüttung.</source>
-    <target>The sum of malts is not the same as total grist.</target>
+    <target>The sum of the malt quantities does not equal the total grist.</target>
 </phrase>
 <phrase>
     <source>Karbonisierung (CO₂)</source>
@@ -3365,7 +3354,7 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Ausgleichen</source>
-    <target>Level out</target>
+    <target>Balance</target>
 </phrase>
 <phrase>
     <source>Hefestarter</source>
@@ -3413,7 +3402,7 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Anteile Stammwürze</source>
-    <target>OG fraction</target>
+    <target>Original gravity proportions</target>
 </phrase>
 <phrase>
     <source>Gesamtkosten</source>
@@ -3461,39 +3450,39 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Bemerkung Rezept</source>
-    <target>Comment recipe</target>
+    <target>Recipe notes</target>
 </phrase>
 <phrase>
     <source>Bemerkung Maischen</source>
-    <target>Comment mashing</target>
+    <target>Mashing notes</target>
 </phrase>
 <phrase>
     <source>Bemerkung Kochen</source>
-    <target>Comment boil</target>
+    <target>Boiling notes</target>
 </phrase>
 <phrase>
     <source>Bemerkung Gärung</source>
-    <target>Comment fermentation</target>
+    <target>Fermentation notes</target>
 </phrase>
 <phrase>
     <source>Bemerkung Maischplan</source>
-    <target>Comment mash steps</target>
+    <target>Mashing scheme notes</target>
 </phrase>
 <phrase>
     <source>Bemerkung Wasseraufbereitung</source>
-    <target>Comment water adjustment</target>
+    <target>Water adjustment notes</target>
 </phrase>
 <phrase>
     <source>Der Hopfen &quot;%1&quot; ist nicht in der Rohstoffliste vorhanden. Soll es jetzt hinzugefügt werden?</source>
-    <target>Hop variant &quot;%1&quot; is not in stock. Should it be added?</target>
+    <target>Hop &quot;%1&quot; is not in the raw material list. Should it be added?</target>
 </phrase>
 <phrase>
     <source>Die Hefe &quot;%1&quot; ist nicht in der Rohstoffliste vorhanden. Soll es jetzt hinzugefügt werden?</source>
-    <target>Yeast &quot;%1&quot; is not in stock. Should it be added?</target>
+    <target>Yeast &quot;%1&quot; is not in the raw material list. Should it be added?</target>
 </phrase>
 <phrase>
     <source>Die Zutat &quot;%1&quot; ist nicht in der Rohstoffliste vorhanden. Soll jetzt es hinzugefügt werden?</source>
-    <target>Ingredient &quot;%1&quot; is not in stock. Should it be added?</target>
+    <target>Ingredient &quot;%1&quot; is not in the raw material list. Should it be added?</target>
 </phrase>
 <phrase>
     <source>sehr mild</source>
@@ -3517,11 +3506,11 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Die Summe der angegebenen Hopfenmengen entspricht nicht der Gesamtmenge.</source>
-    <target>The sum of the hops does not correspond to the required amount.</target>
+    <target>The sum of the hop quantities does not equal the total amount.</target>
 </phrase>
 <phrase>
     <source>Die Summe der angegebenen Anteile an Bittere entspricht nicht der Gesamtbittere.</source>
-    <target>The sum of the bitterness values does not match the total bitterness.</target>
+    <target>The sum of the bitterness values does not equal the total bitterness.</target>
 </phrase>
 <phrase>
     <source>Einmaischen</source>
@@ -3533,11 +3522,11 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Vergärungsgrad übernehmen?</source>
-    <target>Take over fermentation level?</target>
+    <target>Apply yeast attenuation value?</target>
 </phrase>
 <phrase>
     <source>Soll der Vergärungsgrad der Hefe (%1%) übernommen werden?</source>
-    <target>Take over fermentation level (%1%)?</target>
+    <target>Apply yeast attenuation value (%1%)?</target>
 </phrase>
 <phrase>
     <source>Sudkategorien verwalten</source>
@@ -3697,11 +3686,11 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Vorderwürze</source>
-    <target>First wort</target>
+    <target>First wort hopping</target>
 </phrase>
 <phrase>
     <source>Kochbeginn</source>
-    <target>Begin of boil</target>
+    <target>Start of boil</target>
 </phrase>
 <phrase>
     <source>Kochen</source>
@@ -3733,7 +3722,7 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Der maximal empfohlener Schüttungsanteil (%1%) wurde überschritten.</source>
-    <target>Maximum recommend share (%1%) exceeded.</target>
+    <target>Maximum recommended proportion (%1%) exceeded.</target>
 </phrase>
 <phrase>
     <source>Einmaischen</source>
@@ -3777,7 +3766,7 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Gummirast (Glukanaserast)</source>
-    <target>Acid rest</target>
+    <target>Beta-glucan rest</target>
 </phrase>
 <phrase>
     <source>Maltaserast</source>
@@ -3785,7 +3774,7 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Weizenrast (Ferulsäurerast)</source>
-    <target>Glucans rest</target>
+    <target>Ferulic acid rest</target>
 </phrase>
 <phrase>
     <source>Eiweissrast (Proteaserast)</source>
@@ -3834,6 +3823,22 @@ p, li { white-space: pre-wrap; }
 <phrase>
     <source>1/3 Läutermaische</source>
     <target>1/3 lauter mash</target>
+</phrase>
+<phrase>
+    <source>Rezept</source>
+    <target>Recipe</target>
+</phrase>
+<phrase>
+    <source>Gebraut</source>
+    <target>Brewed</target>
+</phrase>
+<phrase>
+    <source>Abgefüllt</source>
+    <target>Bottled</target>
+</phrase>
+<phrase>
+    <source>Ausgetrunken</source>
+    <target>Consumed</target>
 </phrase>
 <phrase>
     <source>Gesamt</source>
@@ -3897,7 +3902,7 @@ p, li { white-space: pre-wrap; }
 </phrase>
 <phrase>
     <source>Bezogen auf Anstellmenge</source>
-    <target>Relative to amount at pitch</target>
+    <target>Relative to pitching volume</target>
 </phrase>
 <phrase>
     <source>Zugabe nach</source>

@@ -48,7 +48,7 @@ DlgRohstoffVorlage::DlgRohstoffVorlage(Art art, QWidget *parent) :
     }
     else
     {
-        ui->labelQuelle->setText(tr("Quellen: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | ww.weyermann.de"));
+        ui->labelQuelle->setText(tr("Quellen: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | www.weyermann.de"));
     }
 
     setModel();

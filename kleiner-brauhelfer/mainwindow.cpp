@@ -813,7 +813,7 @@ void MainWindow::initLabels()
     model->setHeaderData(ModelNachgaerverlauf::ColZeitstempel, Qt::Horizontal, tr("Datum"));
     model->setHeaderData(ModelNachgaerverlauf::ColDruck, Qt::Horizontal, tr("Druck") + "\n(bar)");
     model->setHeaderData(ModelNachgaerverlauf::ColTemp, Qt::Horizontal, tr("Temperatur") + "\n(°C)");
-    model->setHeaderData(ModelNachgaerverlauf::ColCO2, Qt::Horizontal, tr("CO2") + "\n(g/L)");
+    model->setHeaderData(ModelNachgaerverlauf::ColCO2, Qt::Horizontal, tr("CO₂") + "\n(g/L)");
     model->setHeaderData(ModelNachgaerverlauf::ColBemerkung, Qt::Horizontal, tr("Bemerkung"));
     model->setHeaderData(ModelNachgaerverlauf::ColTage, Qt::Horizontal, tr("Tage"));
 

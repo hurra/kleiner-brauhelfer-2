@@ -1682,7 +1682,7 @@ Den grafiska utvärderingen möjliggör tillförlitliga slutsatser om jäsningsf
     </message>
     <message>
         <location filename="../dialogs/dlgeinstellungen.ui" line="463"/>
-        <source>Hiermit wird der Anteil an Speise verrechnet, der später in Reifeprozess für die Nachägrung – entweder in Flasche oder Fass – verwendet wird.
+        <source>Hiermit wird der Anteil an Speise verrechnet, der später in Reifeprozess für die Nachgärung – entweder in Flasche oder Fass – verwendet wird.
 Unter Speise versteht man einen zurückgehaltenen Teil der Würze, der vor dem Anstellen entnommen wird. Aus seinem Volumen und Zuckergehalt lässt sich die Karbonisierung berechnen.</source>
         <translation>Detta används för att beräkna andelen vört som senare kommer att användas i mognadsprocessen för sekundär jäsning, antingen i flaskor eller fat.
 Vört avser en del av vörten som behålls före jäsning. Dess volym och sockerhalt kan användas för att beräkna kolsyrahalten.</translation>
@@ -2693,8 +2693,8 @@ Bei gebrauten Suden fasst die Zusammenfassung alle relevanten Informationen zusa
     </message>
     <message>
         <location filename="../dialogs/dlgrohstoffvorlage.cpp" line="51"/>
-        <source>Quellen: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | ww.weyermann.de</source>
-        <translation>Källor: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | ww.weyermann.de</translation>
+        <source>Quellen: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | www.weyermann.de</source>
+        <translation>Källor: www.mueggelland.de | www.brewferm.be | www.wyeastlab.com | www.fermentis.com | www.danstaryeast.com | wwww.weyermann.de</translation>
     </message>
     <message>
         <location filename="../dialogs/dlgrohstoffvorlage.cpp" line="129"/>
@@ -4162,8 +4162,8 @@ Bei gebrauten Suden fasst die Zusammenfassung alle relevanten Informationen zusa
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="816"/>
-        <source>CO2</source>
-        <translation>CO2</translation>
+        <source>CO₂</source>
+        <translation>CO₂</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="829"/>
@@ -6025,6 +6025,11 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../tabrezept.ui" line="1258"/>
+        <source>Die Summe der angegebenen Wassermengen entspricht nicht der Hauptgussmenge.</source>
+        <translation>Summan av de angivna vattenmängderna är olikt totalmäskvatten.</translation>
+    </message>
+    <message>
         <location filename="../tabrezept.ui" line="1415"/>
         <location filename="../tabrezept.ui" line="1428"/>
         <source>Schritt</source>
@@ -6411,11 +6416,6 @@ p, li { white-space: pre-wrap; }
         <location filename="../tabrezept.ui" line="2014"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hiermit wird ein &lt;span style=&quot; font-weight:600;&quot;&gt;Zusatz&lt;/span&gt; aus der &lt;span style=&quot; font-weight:600;&quot;&gt;Rohstoffliste &lt;/span&gt;im Kleinen Brauhelfer für die Kalthopfung übernommen. Dazu öffnet sich ein Fenster mit den Einträgen im &lt;span style=&quot; font-weight:600;&quot;&gt;Tab Rohstoffe&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../tabrezept.ui" line="1258"/>
-        <source>Die Summe der angegebenen Wassermengen entspricht nicht der Hautpgussmenge.</source>
-        <translation>Summan av de angivna vattenmängderna är olikt totalmäskvatten.</translation>
     </message>
     <message>
         <location filename="../tabrezept.ui" line="1275"/>

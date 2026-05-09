@@ -1255,7 +1255,7 @@ p, li { white-space: pre-wrap; }
               </sizepolicy>
              </property>
              <property name="text">
-              <string>Die Summe der angegebenen Wassermengen entspricht nicht der Hautpgussmenge.</string>
+              <string>Die Summe der angegebenen Wassermengen entspricht nicht der Hauptgussmenge.</string>
              </property>
              <property name="wordWrap">
               <bool>true</bool>
