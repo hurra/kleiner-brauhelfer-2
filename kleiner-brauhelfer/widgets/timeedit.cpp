@@ -12,6 +12,7 @@ TimeEdit::TimeEdit(QWidget *parent) :
     setFocusPolicy(Qt::StrongFocus);
     setAlignment(Qt::AlignCenter);
     setCalendarPopup(false);
+    connect(this, &QDateTimeEdit::timeChanged, this, &TimeEdit::updatePalette);
 }
 
 void TimeEdit::addChangeDecorator()

@@ -9,12 +9,14 @@ RadioButton::RadioButton(QWidget *parent) :
     QRadioButton(parent),
     mError(false)
 {
+    connect(this, &QAbstractButton::clicked, this, &RadioButton::updatePalette);
 }
 
 RadioButton::RadioButton(const QString &text, QWidget *parent) :
     QRadioButton(text, parent),
     mError(false)
 {
+    connect(this, &QAbstractButton::clicked, this, &RadioButton::updatePalette);
 }
 
 void RadioButton::addChangeDecorator()

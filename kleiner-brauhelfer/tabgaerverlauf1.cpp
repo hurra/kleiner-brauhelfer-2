@@ -102,7 +102,7 @@ void TabGaerverlauf1::setup(SudObject *sud)
     connect(mSud->modelWeitereZutatenGaben(), &ProxyModel::rowsRemoved, this, &TabGaerverlauf1::updateWeitereZutaten);
     connect(mSud->modelWeitereZutatenGaben(), &ProxyModel::dataChanged, this, &TabGaerverlauf1::updateWeitereZutaten);
 
-    WidgetDecorator::addDecortor(findChildren<QWidget*>());
+    WidgetDecorator::addDecorator(findChildren<QWidget*>());
 }
 
 void TabGaerverlauf1::showEvent(QShowEvent *event)

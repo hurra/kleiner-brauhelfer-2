@@ -190,7 +190,7 @@ void TabRezept::setup(SudObject *sud)
     table->appendCol({ModelTags::ColGlobal, true, false, 0, new TagGlobalDelegate(mSud, table)});
     table->build();
 
-    WidgetDecorator::addDecortor(findChildren<QWidget*>());
+    WidgetDecorator::addDecorator(findChildren<QWidget*>());
 }
 
 void TabRezept::saveSettings()
@@ -818,7 +818,11 @@ void TabRezept::rasten_modified()
     const int nModel = mSud->modelMaischplan()->rowCount();
     int nLayout = ui->layoutRasten->count();
     while (nLayout < nModel)
-        ui->layoutRasten->addWidget(new WdgRast(mSud, nLayout++, ui->layoutRasten, this));
+    {
+        QWidget* wdg = new WdgRast(mSud, nLayout++, ui->layoutRasten, this);
+        ui->layoutRasten->addWidget(wdg);
+        WidgetDecorator::addDecorator(wdg->findChildren<QWidget*>());
+    }
     while (ui->layoutRasten->count() != nModel)
         delete ui->layoutRasten->itemAt(ui->layoutRasten->count() - 1)->widget();
     for (int i = 0; i < ui->layoutRasten->count(); ++i)
@@ -998,7 +1002,11 @@ void TabRezept::malzGaben_modified()
     const int nModel = mSud->modelMalzschuettung()->rowCount();
     int nLayout = ui->layoutMalzGaben->count();
     while (nLayout < nModel)
-        ui->layoutMalzGaben->addWidget(new WdgMalzGabe(mSud, nLayout++, ui->layoutMalzGaben, this));
+    {
+        QWidget* wdg = new WdgMalzGabe(mSud, nLayout++, ui->layoutMalzGaben, this);
+        ui->layoutMalzGaben->addWidget(wdg);
+        WidgetDecorator::addDecorator(wdg->findChildren<QWidget*>());
+    }
     while (ui->layoutMalzGaben->count() != nModel)
         delete ui->layoutMalzGaben->itemAt(ui->layoutMalzGaben->count() - 1)->widget();
     for (int i = 0; i < ui->layoutMalzGaben->count(); ++i)
@@ -1168,7 +1176,11 @@ void TabRezept::hopfenGaben_modified()
     const int nModel = mSud->modelHopfengaben()->rowCount();
     int nLayout = ui->layoutHopfenGaben->count();
     while (nLayout < nModel)
-        ui->layoutHopfenGaben->addWidget(new WdgHopfenGabe(mSud, nLayout++, ui->layoutHopfenGaben, this));
+    {
+        QWidget* wdg = new WdgHopfenGabe(mSud, nLayout++, ui->layoutHopfenGaben, this);
+        ui->layoutHopfenGaben->addWidget(wdg);
+        WidgetDecorator::addDecorator(wdg->findChildren<QWidget*>());
+    }
     while (ui->layoutHopfenGaben->count() != nModel)
         delete ui->layoutHopfenGaben->itemAt(ui->layoutHopfenGaben->count() - 1)->widget();
     for (int i = 0; i < ui->layoutHopfenGaben->count(); ++i)
@@ -1325,7 +1337,11 @@ void TabRezept::hefeGaben_modified()
     const int nModel = mSud->modelHefegaben()->rowCount();
     int nLayout = ui->layoutHefeGaben->count();
     while (nLayout < nModel)
-        ui->layoutHefeGaben->addWidget(new WdgHefeGabe(mSud, nLayout++, ui->layoutHefeGaben, this));
+    {
+        QWidget* wdg = new WdgHefeGabe(mSud, nLayout++, ui->layoutHefeGaben, this);
+        ui->layoutHefeGaben->addWidget(wdg);
+        WidgetDecorator::addDecorator(wdg->findChildren<QWidget*>());
+    }
     while (ui->layoutHefeGaben->count() != nModel)
         delete ui->layoutHefeGaben->itemAt(ui->layoutHefeGaben->count() - 1)->widget();
     for (int i = 0; i < ui->layoutHefeGaben->count(); ++i)
@@ -1496,7 +1512,11 @@ void TabRezept::weitereZutatenGaben_modified()
 
     nLayout = ui->layoutZusaetzeMaischen->count();
     while (nLayout < nMaischen)
-        ui->layoutZusaetzeMaischen->addWidget(new WdgWeitereZutatGabe(mSud, Brauhelfer::ZusatzZeitpunkt::Maischen, nLayout++, ui->layoutZusaetzeMaischen, this));
+    {
+        QWidget* wdg = new WdgWeitereZutatGabe(mSud, Brauhelfer::ZusatzZeitpunkt::Maischen, nLayout++, ui->layoutZusaetzeMaischen, this);
+        ui->layoutZusaetzeMaischen->addWidget(wdg);
+        WidgetDecorator::addDecorator(wdg->findChildren<QWidget*>());
+    }
     while (ui->layoutZusaetzeMaischen->count() != nMaischen)
         delete ui->layoutZusaetzeMaischen->itemAt(ui->layoutZusaetzeMaischen->count() - 1)->widget();
     for (int i = 0; i < ui->layoutZusaetzeMaischen->count(); ++i)
@@ -1504,7 +1524,11 @@ void TabRezept::weitereZutatenGaben_modified()
 
     nLayout = ui->layoutZusaetzeKochen->count();
     while (nLayout < nKochen)
-        ui->layoutZusaetzeKochen->addWidget(new WdgWeitereZutatGabe(mSud, Brauhelfer::ZusatzZeitpunkt::Kochen, nLayout++, ui->layoutZusaetzeKochen, this));
+    {
+        QWidget* wdg = new WdgWeitereZutatGabe(mSud, Brauhelfer::ZusatzZeitpunkt::Kochen, nLayout++, ui->layoutZusaetzeKochen, this);
+        ui->layoutZusaetzeKochen->addWidget(wdg);
+        WidgetDecorator::addDecorator(wdg->findChildren<QWidget*>());
+    }
     while (ui->layoutZusaetzeKochen->count() != nKochen)
         delete ui->layoutZusaetzeKochen->itemAt(ui->layoutZusaetzeKochen->count() - 1)->widget();
     for (int i = 0; i < ui->layoutZusaetzeKochen->count(); ++i)
@@ -1512,7 +1536,11 @@ void TabRezept::weitereZutatenGaben_modified()
 
     nLayout = ui->layoutZusaetzeGaerung->count();
     while (nLayout < nGaerung)
-        ui->layoutZusaetzeGaerung->addWidget(new WdgWeitereZutatGabe(mSud, Brauhelfer::ZusatzZeitpunkt::Gaerung, nLayout++, ui->layoutZusaetzeGaerung, this));
+    {
+        QWidget* wdg = new WdgWeitereZutatGabe(mSud, Brauhelfer::ZusatzZeitpunkt::Gaerung, nLayout++, ui->layoutZusaetzeGaerung, this);
+        ui->layoutZusaetzeGaerung->addWidget(wdg);
+        WidgetDecorator::addDecorator(wdg->findChildren<QWidget*>());
+    }
     while (ui->layoutZusaetzeGaerung->count() != nGaerung)
         delete ui->layoutZusaetzeGaerung->itemAt(ui->layoutZusaetzeGaerung->count() - 1)->widget();
     for (int i = 0; i < ui->layoutZusaetzeGaerung->count(); ++i)
@@ -1530,7 +1558,11 @@ void TabRezept::wasseraufbereitung_modified()
     const int nModel = mSud->modelWasseraufbereitung()->rowCount();
     int nLayout = ui->layoutWasseraufbereitung->count();
     while (nLayout < nModel)
-        ui->layoutWasseraufbereitung->addWidget(new WdgWasseraufbereitung(mSud, nLayout++, ui->layoutWasseraufbereitung, this));
+    {
+        QWidget* wdg = new WdgWasseraufbereitung(mSud, nLayout++, ui->layoutWasseraufbereitung, this);
+        ui->layoutWasseraufbereitung->addWidget(wdg);
+        WidgetDecorator::addDecorator(wdg->findChildren<QWidget*>());
+    }
     while (ui->layoutWasseraufbereitung->count() != nModel)
         delete ui->layoutWasseraufbereitung->itemAt(ui->layoutWasseraufbereitung->count() - 1)->widget();
     for (int i = 0; i < ui->layoutWasseraufbereitung->count(); ++i)
@@ -1570,7 +1602,11 @@ void TabRezept::anhaenge_modified()
     const int nModel = mSud->modelAnhang()->rowCount();
     int nLayout = ui->layoutAnhang->count();
     while (nLayout < nModel)
-        ui->layoutAnhang->addWidget(new WdgAnhang(mSud, nLayout++, ui->layoutAnhang, this));
+    {
+        QWidget* wdg = new WdgAnhang(mSud, nLayout++, ui->layoutAnhang, this);
+        ui->layoutAnhang->addWidget(wdg);
+        WidgetDecorator::addDecorator(wdg->findChildren<QWidget*>());
+    }
     while (ui->layoutAnhang->count() != nModel)
         delete ui->layoutAnhang->itemAt(ui->layoutAnhang->count() - 1)->widget();
     for (int i = 0; i < ui->layoutAnhang->count(); ++i)

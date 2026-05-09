@@ -54,7 +54,7 @@ void WidgetDecorator::clearValueChanged()
     }
 }
 
-void WidgetDecorator::addDecortor(QList<QWidget*> list)
+void WidgetDecorator::addDecorator(QList<QWidget*> list)
 {
     for (QWidget *w : list)
     {

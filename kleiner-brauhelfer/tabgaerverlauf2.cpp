@@ -63,7 +63,7 @@ void TabGaerverlauf2::setup(SudObject *sud)
     connect(mSud->modelNachgaerverlauf(), &ProxyModel::rowsRemoved, this, &TabGaerverlauf2::updateDiagramm);
     connect(mSud->modelNachgaerverlauf(), &ProxyModel::dataChanged, this, &TabGaerverlauf2::dataChangedNachgaerverlauf);
 
-    WidgetDecorator::addDecortor(findChildren<QWidget*>());
+    WidgetDecorator::addDecorator(findChildren<QWidget*>());
 }
 
 void TabGaerverlauf2::showEvent(QShowEvent *event)
@@ -101,6 +101,8 @@ void TabGaerverlauf2::restoreView()
 
 void TabGaerverlauf2::modulesChanged(Settings::Modules modules)
 {
+    Q_UNUSED(modules)
+
     if (mSud->isLoaded())
     {
         updateValues();

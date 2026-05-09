@@ -9,12 +9,14 @@ CheckBox::CheckBox(QWidget *parent) :
     mDefaultPalette(palette()),
     mError(false)
 {
+    connect(this, &QCheckBox::checkStateChanged, this, &CheckBox::updatePalette);
 }
 
 CheckBox::CheckBox(const QString &text, QWidget *parent) :
     QCheckBox(text, parent),
     mError(false)
 {
+    connect(this, &QCheckBox::checkStateChanged, this, &CheckBox::updatePalette);
 }
 
 void CheckBox::addChangeDecorator()

@@ -9,6 +9,7 @@ LineEdit::LineEdit(QWidget *parent) :
     QLineEdit(parent),
     mError(false)
 {
+    connect(this, &QLineEdit::textChanged, this, &LineEdit::updatePalette);
 }
 
 void LineEdit::addChangeDecorator()

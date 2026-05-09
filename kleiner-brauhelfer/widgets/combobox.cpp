@@ -11,6 +11,8 @@ ComboBox::ComboBox(QWidget *parent) :
     mError(false)
 {
     setFocusPolicy(Qt::StrongFocus);
+    connect(this, &QComboBox::currentIndexChanged, this, &ComboBox::updatePalette);
+    connect(this, &QComboBox::currentTextChanged, this, &ComboBox::updatePalette);
 }
 
 void ComboBox::addChangeDecorator()

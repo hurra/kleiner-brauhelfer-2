@@ -14,16 +14,13 @@ SpinBox::SpinBox(QWidget *parent) :
     setFocusPolicy(Qt::StrongFocus);
     setAlignment(Qt::AlignCenter);
     setMinimum(0);
-    setMaximum(std::numeric_limits<int>::max());
+    setMaximum(999999);
+    connect(this, &QSpinBox::valueChanged, this, &SpinBox::updatePalette);
 }
 
 void SpinBox::addChangeDecorator()
 {
-    connect(this, &QSpinBox::valueChanged, [this]()
-    {
-        WidgetDecorator::valueChanged(this, hasFocus());
-        updatePalette();
-    });
+    connect(this, &QSpinBox::valueChanged, [this](){WidgetDecorator::valueChanged(this, hasFocus());});
 }
 
 bool SpinBox::event(QEvent *event)

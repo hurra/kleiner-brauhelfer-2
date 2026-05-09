@@ -11,6 +11,7 @@ PushButton::PushButton(QWidget *parent) :
     mError(false)
 {
     setAutoDefault(false);
+    connect(this, &QAbstractButton::clicked, this, &PushButton::updatePalette);
 }
 
 void PushButton::addChangeDecorator()
